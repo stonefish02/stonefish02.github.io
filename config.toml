@@ -1,0 +1,7 @@
+baseURL = 'http://stonefields.org/'
+languageCode = 'en-us'
+title = 'Stone Site'
+
+theme='classy'
+custom_css = ["css/custom_style.css"]
+
