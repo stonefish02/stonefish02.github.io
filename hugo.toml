@@ -3,7 +3,6 @@ languageCode = 'en-us'
 title = 'Stone Site'
 
 theme = 'classy'
-googlefonts = “http://fonts.googleapis.com/css?family=Itim|Limelight”
 [params]
 author='<Stone Fields>'
 siteHeading = '<Stone Fields>'
