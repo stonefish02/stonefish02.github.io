@@ -10,15 +10,15 @@ mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
 
 
 [[menu.main]]
-name = "Movies"
-title = "Movies"
-url = "/movies/"
+name = "Reviews"
+title = "Reviews"
+url = "/Reviews2/"
 weight = 10
 
 [[menu.main]]
-name = "Movies Reviews"
-parent = "Movies"
+name = "Movie Reviews"
+parent = "Reviews"
 title = "Movies Reviews"
-url = "/movies/reviews/"
+url = "/Reviews2/Movie Reviews/"
 weight = 5
 
