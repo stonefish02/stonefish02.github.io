@@ -5,5 +5,5 @@ title = 'Stone Site'
 theme = 'classy'
 [params]
 author='<Stone Fields>'
-siteHeading = '<Stone Fields>'
+siteHeading = '< Stone Fields >'
 mainSections = ['Home', 'Reviews2', 'Writing','Research','Cool Stuff']
