@@ -18,6 +18,8 @@ mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
   url = "/Reviews2/"
   weight = 13
 
+[[menu.main]]
+
   name = "Movies Reviews"
   parent = "Movies"
   title = "Movies Reviews"
