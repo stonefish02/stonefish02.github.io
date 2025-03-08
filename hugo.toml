@@ -14,7 +14,7 @@ mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
 
   name = "Reviews"
   identifier = "Reviews"
-  title = "Reviews
+  title = "Reviews"
   url = "/Reviews2/"
   weight = 13
 
