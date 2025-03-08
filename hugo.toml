@@ -6,4 +6,19 @@ theme = 'classy'
 [params]
 author='<Stone Fields>'
 siteHeading = '< Stone Fields >'
-mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
+
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    name = "Reviews"
+    url = "/content/Reviews2/"
+    weight = 2
+  [[menu.main]]
+    name = "Movie Reviews"
+    parent = "Reviews" # This makes "Movie Reviews" a child of "Reviews"
+    url = "/content/Reviews2/Movie_Reviews/"
+    weight = 1 # Adjust weight to control order within the Reviews dropdown
