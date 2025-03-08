@@ -9,4 +9,18 @@ siteHeading = '< Stone Fields >'
 mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
 
 
+[[menu.main]]
+ 
+
+  name = "Reviews"
+  identifier = "Reviews"
+  title = "Reviews
+  url = "/Reviews2/"
+  weight = 13
+
+  name = "Movies Reviews"
+  parent = "Movies"
+  title = "Movies Reviews"
+  url = "/Reviews2/Movie Reviews/"
+  weight = 5  
 
