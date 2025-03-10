@@ -6,4 +6,4 @@ name = 'Everything, Everywhere, All at Once Movie Review'
 weight = 69
 +++
 One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. 
-{{< embed-pdf url= "EEEAOT.pdf">}}
+{{< embed-pdf url= "/Reviews/Movie_Reviews/EEEAOT.pdf">}}
