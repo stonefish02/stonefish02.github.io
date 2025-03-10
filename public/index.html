@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta name="generator" content="Hugo 0.144.1">
+	<meta name="generator" content="Hugo 0.145.0"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Stone Site - Home </title>
     <link rel="stylesheet" type="text/css" href="/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
@@ -10,26 +10,25 @@
     <link rel="stylesheet" type="text/css" href="/css/styles.min.161ac29527340fe6cd42d0fe020b4b1fb8ece483017235511148094a3c06372f.css">
     
     
+    
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom.css">
     <meta charset="UTF-8">
     <meta name="author" content="&lt;Stone Fields&gt;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="alternate" type="application/rss+xml" href="https://example.org/index.xml" title="Stone Site" />
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="Stone Site" />
     </head>
 <body>
 <header class="page-header">
     <div class="myname"> 
-        <h2><a href="https://example.org/">&lt;Stone Fields&gt;</a></h2> 
+        <h2><a href="http://localhost:1313/">&lt; Stone Fields &gt;</a></h2> 
     </div>
     <nav>
         <ul class="navbar">
             <li class="activetab">
                 <a href="/">
                     <span>Home</span>
-                </a>
-            </li>
-            <li class="">
-                <a href="/reviews2/">
-                    <span>Reviews</span>
                 </a>
             </li>
             <li class="">
@@ -42,18 +41,19 @@
                     <span>Research</span>
                 </a>
             </li>
+            <li class="dropdown ">
+                <a href ="/reviews/">
+                    <span>Reviews</span>
+                </a>
+                <div class=sub-menu>
+                    <a class="" href="/reviews/movie_reviews/">Movie Reviews</a>
+                    <a class="" href="/reviews/book-reviews/">Book Reviews</a>
+                </div>
+            </li>
             <li class="">
                 <a href="/cool_stuff/">
                     <span>Cool Stuff</span>
                 </a>
-            </li>
-            <li class="dropdown ">
-                <a href ="">
-                    <span>Reviews2</span>
-                </a>
-                <div class=sub-menu>
-                    <a class="" href="/reviews2/movie-reviews/essay3/">Everything, Everywhere, All at Once Movie Review</a>
-                </div>
             </li>
         </ul>
     </nav>
@@ -67,16 +67,26 @@
         
 
         
-            <p><figure class="image-shortcode frame right" 
-         style="width: 11em;">
-    <img src="/IMG_1007.jpeg"
-         alt="Picture of me"/> <figcaption>
-            <p>Picture of me</p>
-        </figcaption>
+            
+<figure style="float: right; width: 10em; margin: 0 0 1em 1em; cursor: pointer;">
+  <img id="toggleImage" src="IMG_1007.jpeg" alt="Picture of me" onclick="toggleImage()" style="width: 100%;">
+  <figcaption>Picture of me</figcaption>
 </figure>
 
-Hello there, my name is Stone Fields! I am an undergraduate student in Mathematics at Texas Tech University with a minor in technical communication. I am interested in mathematical research, but I am also dedicated to effective, mindful communication and the exploration of the world and self. Initially, I was a humanities centered student in Middle School and High School. But, after taking courses in Calculus III and Linear Algebra, I began researching Riemannian geometry and decided to make mathematics my major. Mathematics has taught me how to think more logically, but has also ingrained in my the importance of resilience and entering the flow state.</p>
-<p>Unfortunately, we only have finite time and I can not learn all the things I would like to. As a result, I pursue the application of my major and minor through my research in mathematics, but also in my critiques of movies, books, and other media through essays and try to unite them through the umbrella of teaching and self-improvement. Ultimately, I believe that areas such as English, mathematics, and other topics are not as disjoint as they might seem.</p>
+<script>
+function toggleImage() {
+  var img = document.getElementById('toggleImage');
+  if (img.getAttribute('src') === 'IMG_1007.jpeg') {
+    img.setAttribute('src', 'GEOMETRY_IMG_1007.png');
+  } else {
+    img.setAttribute('src', 'IMG_1007.jpeg');
+  }
+}
+</script>
+
+<p>Hello there, my name is Stone Fields! I am an undergraduate Mathematics student at Texas Tech University with a minor in Technical Communication. While I am passionate about mathematical research, I am equally dedicated to mindful, effective communication and the exploration of both the world and the self.</p>
+<p>Initially, I was a humanities-focused student throughout middle and high school. However, after taking Calculus III and Linear Algebra, I met my advisor Álvaro Pámpano and began researching topics in Riemannian geometry and geometric analysis. Studying mathematics has strengthened my logical thinking while also teaching me the value of resilience and the importance of entering a flow state.</p>
+<p>Unfortunately, time is finite, and I cannot learn everything I would like to. As a result, I explore the intersections of my major and minor—not only through mathematical research but also through critiques of films, books, and other media. I strive to connect these fields under the broader themes of teaching and self-improvement. The vehicle for such themes is the through the essay. The french word &ldquo;essai&rdquo; means &ldquo;attempt&rdquo; - everything begins with an attempt; it all begins with scratch work. It is through trial and error that I believe most topics - including mathematics and English - can be united.</p>
 
         
 

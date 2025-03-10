@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Stone Site</title>
+        <link>http://localhost:1313/reviews/book-reviews/</link>
+        <description>Latest blog posts from Stone Site</description>
+
+        
+        <language>en-us</language>
+        
+
+        
+
+        
+
+        
+
+        
+        <lastBuildDate>Sun, 23 Feb 2025 17:00:34 -0600</lastBuildDate>
+        
+
+        
+        <atom:link href="http://localhost:1313/reviews/book-reviews/index.xml" rel="self" type="application/rss+xml" />
+        
+
+        
+    </channel>
+</rss>

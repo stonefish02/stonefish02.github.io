@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Stone Site</title>
-        <link>https://example.org/writing/</link>
+        <link>http://localhost:1313/writing/</link>
         <description>Latest blog posts from Stone Site</description>
 
         
@@ -20,7 +20,7 @@
         
 
         
-        <atom:link href="https://example.org/writing/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/writing/index.xml" rel="self" type="application/rss+xml" />
         
 
         

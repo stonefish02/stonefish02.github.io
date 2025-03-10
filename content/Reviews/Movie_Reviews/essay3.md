@@ -1,8 +1,7 @@
 +++
 date = '2025-02-24T13:33:25-06:00'
 title = 'Everything, Everywhere, All at Once Movie Review'
-[menu.main]
-parent = 'Reviews'
+
 name = 'Everything, Everywhere, All at Once Movie Review'
 weight = 69
 +++

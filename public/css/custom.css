@@ -1,0 +1,35 @@
+
+
+
+
+/* Apply PT Serif to the body text */
+body {
+  font-family: 'PT Serif', serif;
+}
+
+/* Apply Spectral to your navigation bar */
+.navbar, .navbar * {
+  font-family: 'Spectral', serif;
+}
+
+body p {
+  font-family: 'PT Serif', serif !important;
+}
+
+.page-title {
+  font-family: 'Spectral', serif !important;
+}
+
+.blog-post-title {
+  font-family: 'Spectral', serif !important;
+}
+
+#content article.blog-post-title h3 {
+  font-family: 'Spectral', serif !important;
+}
+
+.blog-post-summary .blog-post-title a {
+  font-family: 'Spectral', serif !important;
+}
+
+

@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Stone Site</title>
-        <link>https://example.org/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Latest blog posts from Stone Site</description>
 
         
@@ -16,9 +16,11 @@
         
 
         
+        <lastBuildDate>Sat, 08 Mar 2025 17:25:12 -0600</lastBuildDate>
+        
 
         
-        <atom:link href="https://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
         
 
         

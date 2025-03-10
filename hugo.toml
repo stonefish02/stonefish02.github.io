@@ -8,17 +8,8 @@ author='<Stone Fields>'
 siteHeading = '< Stone Fields >'
 mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
 
-
-[[menu.main]]
-name = "Reviews"
-title = "Reviews"
-url = "/Reviews2/"
-weight = 10
-
-[[menu.main]]
-name = "Movie Reviews"
-parent = "Reviews"
-title = "Movies Reviews"
-url = "/Reviews2/Movie Reviews/"
-weight = 5
-
+[taxonomies]
+year = "year"
+month = "month"
+tags = "tags"
+categories = "categories"

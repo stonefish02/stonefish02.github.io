@@ -1,0 +1,16 @@
+
+<figure style="float: right; width: 10em; margin: 0 0 1em 1em; cursor: pointer;">
+  <img id="toggleImage" src="IMG_1007.jpeg" alt="Picture of me" onclick="toggleImage()" style="width: 100%;">
+  <figcaption>Picture of me</figcaption>
+</figure>
+
+<script>
+function toggleImage() {
+  var img = document.getElementById('toggleImage');
+  if (img.getAttribute('src') === 'IMG_1007.jpeg') {
+    img.setAttribute('src', 'GEOMETRY_IMG_1007.png');
+  } else {
+    img.setAttribute('src', 'IMG_1007.jpeg');
+  }
+}
+</script>

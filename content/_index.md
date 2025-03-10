@@ -5,15 +5,18 @@ title = 'Home'
 identifier = 'blog'
 name = 'Home'
 weight = 5
-+++
-{{<image
-    float="right"
-    width="11em"
-    frame="true"
-    caption="Picture of me"
-    src="IMG_1007.jpeg"
->}}
-Hello there, my name is Stone Fields! I am an undergraduate student in Mathematics at Texas Tech University with a minor in technical communication. I am interested in mathematical research, but I am also dedicated to effective, mindful communication and the exploration of the world and self. Initially, I was a humanities centered student in Middle School and High School. But, after taking courses in Calculus III and Linear Algebra, I began researching Riemannian geometry and decided to make mathematics my major. Mathematics has taught me how to think more logically, but has also ingrained in my the importance of resilience and entering the flow state.
 
-Unfortunately, we only have finite time and I can not learn all the things I would like to. As a result, I pursue the application of my major and minor through my research in mathematics, but also in my critiques of movies, books, and other media through essays and try to unite them through the umbrella of teaching and self-improvement. Ultimately, I believe that areas such as English, mathematics, and other topics are not as disjoint as they might seem.
++++
+
+{{< easteregg1 >}}
+    
+    
+ 
+
+
+Hello there, my name is Stone Fields! I am an undergraduate Mathematics student at Texas Tech University with a minor in Technical Communication. While I am passionate about mathematical research, I am equally dedicated to mindful, effective communication and the exploration of both the world and the self.
+
+Initially, I was a humanities-focused student throughout middle and high school. However, after taking Calculus III and Linear Algebra, I met my advisor Álvaro Pámpano and began researching topics in Riemannian geometry and geometric analysis. Studying mathematics has strengthened my logical thinking while also teaching me the value of resilience and the importance of entering a flow state.
+
+Unfortunately, time is finite, and I cannot learn everything I would like to. As a result, I explore the intersections of my major and minor—not only through mathematical research but also through critiques of films, books, and other media. I strive to connect these fields under the broader themes of teaching and self-improvement. The vehicle for such themes is the through the essay. The french word "essai" means "attempt" - everything begins with an attempt; it all begins with scratch work. It is through trial and error that I believe most topics - including mathematics and English - can be united. 
 
