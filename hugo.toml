@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Stone Site'
+title = 'Stone Fields'
 
 theme = 'classy'
 [params]
