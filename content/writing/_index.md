@@ -6,4 +6,4 @@ identifier = 'Writing'
 name = 'Writing'
 weight = 6
 +++
-Here is where I put my writings for class and formal essays
+Here is where I put my writings for class and essays on the more formal side of things.
