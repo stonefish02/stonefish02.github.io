@@ -6,7 +6,7 @@ theme = 'classy'
 [params]
 author='<Stone Fields>'
 siteHeading = '< Stone Fields >'
-mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff']
+mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff', 'Service']
 
 [taxonomies]
 year = "year"
