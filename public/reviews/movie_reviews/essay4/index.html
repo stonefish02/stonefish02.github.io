@@ -67,91 +67,7 @@
             
             <h1 class="page-title">Everything, Everywhere, All at Once Movie Review</h1>
             
-                <p>One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. <script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
-
-<style>
-  #embed-pdf-container {
-    position: relative;
-    width: 100%;
-    height: auto;
-    min-height: 20vh;
-     
-  }
-  
-  .pdf-canvas {
-    border: 1px solid black;
-    direction: ltr;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-  
-  #the-canvas {
-    border: 1px solid black;
-    direction: ltr;
-    width: 100%;
-    height: auto;
-    display: none;
-  }
-  
-  
-  .pdf-loadingWrapper {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 350px;
-  }
-  
-  .pdf-loading {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    border: 3px solid #d2d0d0;;
-    border-radius: 50%;
-    border-top-color: #383838;
-    animation: spin 1s ease-in-out infinite;
-    -webkit-animation: spin 1s ease-in-out infinite;
-  }
-  
-  
-  
-  
-  
-  #overlayText {
-    word-wrap: break-word;
-    display: grid;
-    justify-content: end;
-  }
-  
-  #overlayText a {
-    position: relative;
-    top: 10px;
-    right: 4px;
-    color: #000;
-    margin: auto;
-    background-color: #eeeeee;
-    padding: 0.3em 1em;
-    border: solid 2px;
-    border-radius: 12px;
-    border-color: #00000030;
-    text-decoration: none;
-  }
-  
-  #overlayText svg {
-    height: clamp(1em, 2vw, 1.4em);
-    width:  clamp(1em, 2vw, 1.4em);
-  }
-  
-  
-  
-  @keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  @-webkit-keyframes spin {
-    to { -webkit-transform: rotate(360deg); }
-  }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-ad009f57">
+                <p>One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. <div class="embed-pdf-container" id="embed-pdf-container-ad009f57">
     <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-ad009f57">
         <div class="pdf-loading" id="pdf-loading-ad009f57"></div>
     </div>
@@ -323,5 +239,25 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-ad009f57" href="
         </div><footer>
     <span></span>
 </footer>
+<div id="quoteBox" style="position: fixed; bottom: 10px; right: 10px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 8px; cursor: pointer; max-width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" onclick="cycleQuote()">
+  "Click me for a new quote!"
+</div>
+
+<script>
+const quotes = [
+  "It is the mark of an educated mind to be able to entertain a thought without accepting it - Aristotle",
+  "My destination is no longer a place, rather a new way of seeing - Marcel Proust",
+  "I am made and remade continually. Different people draw different words from me - Virginia Woolf",
+  "And so it goes... - Kurt Vonnegut",
+  "If you look for perfection, you'll never be content - Leo Tolstoy"
+];
+
+let currentQuote = 0;
+
+function cycleQuote() {
+  currentQuote = (currentQuote + 1) % quotes.length;
+  document.getElementById('quoteBox').innerText = quotes[currentQuote];
+}
+</script>
 </body>
 </html>

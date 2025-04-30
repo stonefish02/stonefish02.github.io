@@ -67,77 +67,78 @@
 
     <h1 class="page-title">Book Reviews</h1>
 
-    
-    <div class="taxonomy-links">
-        <ul>
-            
-            
-            
-                
-            
-                
-            
-                
-                    
-                    
-                    
-                        
-                    
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-                
-            
-            
-            <li><a href="http://localhost:1313/archive/">Archive</a></li>
-            
+    <article class="blog-post-summary">
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/book-reviews/rhetoric/">The Art of Rhetoric by Aristotle</a></h3>
 
-            
-                
-            <li><a href="/categories">categories</a></li>
-                
-            
-                
-            
-                
-            <li><a href="/tags">tags</a></li>
-                
-            
-                
-            
-        </ul>
-    </div>
-    </main>
+    <p class="blog-post-info">Posted: <time>2025-02-24</time>
+    
+
+
+</p>
+    <p><p>The Art of Rhetoric by Aristotle is a collection of Aristotle’s lecture notes and manuscripts detailing rhetoric, which Aristotle quickly goes on to define as an art. If you wish to undertake the journey of reading all of Aristotle’s significant works, this is definitely one that should be in the lineup and is certainly one of his more practical works. Though there are terse and dense sections in which Aristotle unfolds definitions into their consequences, I find that this work was more digestable than something like the Nicomachean ethics (though, there were definitely a lot of times where I would need to reread passages…)  which spends large amounts of time working over logical consistency.</p><span> <a href="http://localhost:1313/reviews/book-reviews/rhetoric/">Read more...</a></span>
+    </p>
+</article>
+<article class="blog-post-summary">
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/book-reviews/waves/">The Waves by Virginia Woolf</a></h3>
+
+    <p class="blog-post-info">Posted: <time>2025-02-24</time>
+    
+
+
+</p>
+    <p><p>The Waves is one of those books one simply must read.</p>
+<p>This book is so good… it is incredibly sublime. It is not an easy read and this book definitely benefits from a slow, deep read (much like Woolf’s other works in general.) This book is a stream of consciousness style embodied, but it is so much sweeter and more predictable than Joyce or Pynchon (not knocking the two by any means.) The book is incredibly melodic and transcendent, emphasizing the ebbs and flows of prose. The premise of this book is genius as a whole.</p><span> <a href="http://localhost:1313/reviews/book-reviews/waves/">Read more...</a></span>
+    </p>
+</article>
+<article class="blog-post-summary">
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/book-reviews/essay4/">The master and Margarita by Mikhail Bulgakov</a></h3>
+
+    <p class="blog-post-info">Posted: <time>2025-02-24</time>
+    
+
+
+</p>
+    <p><p>The master and Margarita is a sprawling masterpiece which is unapologetic in its celebration of freedom and art. Deeply anti-authoritarian in nature, this opposition to the quelling of creative processes is present not only in Bulghakov’s  portrayal of Soviet society, but also composes the nature of his entire work. At first sight, this book is an absurd magical realist book which has prose typical of the genre. Most of the humor in this book has a basis in overstimulation and ridiculousness, but also in its very striking satire. One of the most beautiful things about this satire is that as you being to understand more about the history of the Soviet Union, the more poignant it becomes. Even from the very beginning in which the duo Berlioz and Ivan Homeless drink warm apricot soda is emblematic of the economic reality of the Soviet Union: constant shortages and simply making do.</p><span> <a href="http://localhost:1313/reviews/book-reviews/essay4/">Read more...</a></span>
+    </p>
+</article>
+<article class="blog-post-summary">
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/book-reviews/aethics/">The Nicomachean Ethics by Aristotle</a></h3>
+
+    <p class="blog-post-info">Posted: <time>2025-02-24</time>
+    
+
+
+</p>
+    <p><p>How ought one to live life? What is the chief good amongst others? What does happiness mean? How do I get there?&hellip;..</p>
+<p>Aristotle seeks to answer all these questions in the Nichomachean Ethics. This book forces you to be better. Whether you believe in the ideas of virtue ethics or not, this book forces you to adapt. Aristotle creates many intricate arguments about why one ought to be virtuous and what virtues to pursue. This book has completely changed my outlook on who I am as a person and has made me recognize a significant amount of my own shortcomings. This book condenses most of self-help culture that has been tainted by consumerism into 276 pages of lectures.</p><span> <a href="http://localhost:1313/reviews/book-reviews/aethics/">Read more...</a></span>
+    </p>
+</article>
+
+
+</main>
 
         </div><footer>
     <span></span>
 </footer>
+<div id="quoteBox" style="position: fixed; bottom: 10px; right: 10px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 8px; cursor: pointer; max-width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" onclick="cycleQuote()">
+  "Click me for a new quote!"
+</div>
+
+<script>
+const quotes = [
+  "It is the mark of an educated mind to be able to entertain a thought without accepting it - Aristotle",
+  "My destination is no longer a place, rather a new way of seeing - Marcel Proust",
+  "I am made and remade continually. Different people draw different words from me - Virginia Woolf",
+  "And so it goes... - Kurt Vonnegut",
+  "If you look for perfection, you'll never be content - Leo Tolstoy"
+];
+
+let currentQuote = 0;
+
+function cycleQuote() {
+  currentQuote = (currentQuote + 1) % quotes.length;
+  document.getElementById('quoteBox').innerText = quotes[currentQuote];
+}
+</script>
 </body>
 </html>

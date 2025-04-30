@@ -324,5 +324,25 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-dec611bf" href="
         </div><footer>
     <span></span>
 </footer>
+<div id="quoteBox" style="position: fixed; bottom: 10px; right: 10px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 8px; cursor: pointer; max-width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" onclick="cycleQuote()">
+  "Click me for a new quote!"
+</div>
+
+<script>
+const quotes = [
+  "It is the mark of an educated mind to be able to entertain a thought without accepting it - Aristotle",
+  "My destination is no longer a place, rather a new way of seeing - Marcel Proust",
+  "I am made and remade continually. Different people draw different words from me - Virginia Woolf",
+  "And so it goes... - Kurt Vonnegut",
+  "If you look for perfection, you'll never be content - Leo Tolstoy"
+];
+
+let currentQuote = 0;
+
+function cycleQuote() {
+  currentQuote = (currentQuote + 1) % quotes.length;
+  document.getElementById('quoteBox').innerText = quotes[currentQuote];
+}
+</script>
 </body>
 </html>

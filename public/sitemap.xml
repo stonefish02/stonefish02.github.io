@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/reviews/movie_reviews/essay4/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/cool_stuff/patterngeneration/</loc>
+    <lastmod>2025-02-24T13:33:25-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/service_learning/</loc>
     <lastmod>2025-03-10T18:07:18-05:00</lastmod>
   </url><url>
@@ -32,6 +35,9 @@
     <loc>http://localhost:1313/reviews/book-reviews/</loc>
     <lastmod>2025-02-23T17:00:34-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/cool_stuff/</loc>
+    <lastmod>2025-02-23T17:00:34-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-23T17:00:34-06:00</lastmod>
   </url><url>
@@ -40,9 +46,6 @@
   </url><url>
     <loc>http://localhost:1313/writing/</loc>
     <lastmod>2025-02-23T17:00:34-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/cool_stuff/</loc>
-    <lastmod>2025-02-23T15:44:36-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/teaching/</loc>
     <lastmod>2025-02-23T15:44:26-06:00</lastmod>
