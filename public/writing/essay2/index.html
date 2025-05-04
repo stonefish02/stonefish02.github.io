@@ -152,36 +152,36 @@
   @-webkit-keyframes spin {
     to { -webkit-transform: rotate(360deg); }
   }
-  </style><div class="embed-pdf-container" id="embed-pdf-container-cb436f25">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-cb436f25">
-        <div class="pdf-loading" id="pdf-loading-cb436f25"></div>
+  </style><div class="embed-pdf-container" id="embed-pdf-container-f3416a30">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-f3416a30">
+        <div class="pdf-loading" id="pdf-loading-f3416a30"></div>
     </div>
     <div id="overlayText">
-      <a href="/writing/GOS.pdf" aria-label="Download" download>
+      <a href="/writing/GOSU.pdf" aria-label="Download" download>
         <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
             <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
         </svg>
       </a>
     </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-cb436f25"></canvas>
+    <canvas class="pdf-canvas" id="pdf-canvas-f3416a30"></canvas>
 </div>
 
-<div class="pdf-paginator" id="pdf-paginator-cb436f25">
-    <button id="pdf-prev-cb436f25">Previous</button>
-    <button id="pdf-next-cb436f25">Next</button> &nbsp; &nbsp;
+<div class="pdf-paginator" id="pdf-paginator-f3416a30">
+    <button id="pdf-prev-f3416a30">Previous</button>
+    <button id="pdf-next-f3416a30">Next</button> &nbsp; &nbsp;
     <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-cb436f25"></span> / <span class="pdf-pagecount" id="pdf-pagecount-cb436f25"></span>
+      <span class="pdf-pagenum" id="pdf-pagenum-f3416a30"></span> / <span class="pdf-pagecount" id="pdf-pagecount-f3416a30"></span>
     </span>
-    <a class="pdf-source" id="pdf-source-cb436f25" href="/writing/GOS.pdf">[pdf]</a>
+    <a class="pdf-source" id="pdf-source-f3416a30" href="/writing/GOSU.pdf">[pdf]</a>
 </div>
 
 <noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-cb436f25" href="/writing/GOS.pdf">here</a>.
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-f3416a30" href="/writing/GOSU.pdf">here</a>.
 </noscript>
 
 <script type="text/javascript">
     (function(){
-    var url = '\/writing\/GOS.pdf';
+    var url = '\/writing\/GOSU.pdf';
 
     var hidePaginator = "" === "true";
     var hideLoader = "" === "true";
@@ -200,10 +200,10 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-cb436f25" href="
         pageRendering = false,
         pageNumPending = null,
         scale = 3,
-        canvas = document.getElementById('pdf-canvas-cb436f25'),
+        canvas = document.getElementById('pdf-canvas-f3416a30'),
         ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-cb436f25"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-cb436f25');
+        paginator = document.getElementById("pdf-paginator-f3416a30"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-f3416a30');
 
 
     
@@ -241,7 +241,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-cb436f25" href="
       });
 
       
-      document.getElementById('pdf-pagenum-cb436f25').textContent = num;
+      document.getElementById('pdf-pagenum-f3416a30').textContent = num;
     }
 
     
@@ -285,7 +285,7 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-cb436f25" href="
       pageNum--;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-prev-cb436f25').addEventListener('click', onPrevPage);
+    document.getElementById('pdf-prev-f3416a30').addEventListener('click', onPrevPage);
 
     
 
@@ -296,14 +296,14 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-cb436f25" href="
       pageNum++;
       queueRenderPage(pageNum);
     }
-    document.getElementById('pdf-next-cb436f25').addEventListener('click', onNextPage);
+    document.getElementById('pdf-next-f3416a30').addEventListener('click', onNextPage);
 
     
 
     pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
       pdfDoc = pdfDoc_;
       var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-cb436f25').textContent = numPages;
+      document.getElementById('pdf-pagecount-f3416a30').textContent = numPages;
 
       
       if(pageNum > numPages) {

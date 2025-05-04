@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
-    <title>Stone Fields - Service Project </title>
+    <title>Stone Fields - The First Tee Southeastern New Mexico Newsletter </title>
     <link rel="stylesheet" type="text/css" href="/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
     
@@ -16,7 +16,6 @@
     <meta charset="UTF-8">
     <meta name="author" content="&lt;Stone Fields&gt;">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/service_learning/index.xml" title="Stone Fields" />
     </head>
 <body>
 <header class="page-header">
@@ -49,7 +48,7 @@
                     <a class="" href="/reviews/book-reviews/">Book Reviews</a>
                 </div>
             </li>
-            <li class="activetab">
+            <li class="">
                 <a href="/service_learning/">
                     <span>Service Project</span>
                 </a>
@@ -63,203 +62,12 @@
     </nav>
 </header>
 <div id="content">
-<main>
-
-    <h1 class="page-title">Service Project</h1>
-
-    <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/service_learning/statement/">The First Tee - Southeastern New Mexico Service Project</a></h3>
-
-    <p class="blog-post-info">Posted: <time>2025-02-24</time>
-    
-
-
-</p>
-    <p><p>For my client based project, I am contracting for The First Tee Southeastern New Mexico. The First Tee is an international national nonprofit that teaches ethics, respect, and creates a growth-centered environment through golf. This program can be thought of like an after-school care program, but also has intersection with the general golf community through public events such as tournaments and Girls Golf. The First Tee is heavily affiliated with public school systems, and is known for training instructors in physical education. As mentioned before, The First Tee is an international organization with over 150 programs throughout the world.</p><span> <a href="http://localhost:1313/service_learning/statement/">Read more...</a></span>
-    </p>
-</article>
-<article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/service_learning/brochure/">The First Tee Southeastern New Mexico Brochure</a></h3>
-
-    <p class="blog-post-info">Posted: <time>2025-02-24</time>
-    
-
-
-</p>
-    <p><div class="embed-pdf-container" id="embed-pdf-container-3a1c0fc3">
-    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-3a1c0fc3">
-        <div class="pdf-loading" id="pdf-loading-3a1c0fc3"></div>
-    </div>
-    <div id="overlayText">
-      <a href="/service_learning/Brochure.pdf" aria-label="Download" download>
-        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
-            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
-        </svg>
-      </a>
-    </div>
-    <canvas class="pdf-canvas" id="pdf-canvas-3a1c0fc3"></canvas>
-</div>
-
-<div class="pdf-paginator" id="pdf-paginator-3a1c0fc3">
-    <button id="pdf-prev-3a1c0fc3">Previous</button>
-    <button id="pdf-next-3a1c0fc3">Next</button> &nbsp; &nbsp;
-    <span>
-      <span class="pdf-pagenum" id="pdf-pagenum-3a1c0fc3"></span> / <span class="pdf-pagecount" id="pdf-pagecount-3a1c0fc3"></span>
-    </span>
-    <a class="pdf-source" id="pdf-source-3a1c0fc3" href="/service_learning/Brochure.pdf">[pdf]</a>
-</div>
-
-<noscript>
-View the PDF file <a class="pdf-source" id="pdf-source-noscript-3a1c0fc3" href="/service_learning/Brochure.pdf">here</a>.
-</noscript>
-
-<script type="text/javascript">
-    (function(){
-    var url = '\/service_learning\/Brochure.pdf';
-
-    var hidePaginator = "" === "true";
-    var hideLoader = "" === "true";
-    var selectedPageNum = parseInt("") || 1;
-
-    
-    var pdfjsLib = window['pdfjs-dist/build/pdf'];
-
-    
-    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
-      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/localhost:1313\/" + 'js/pdf-js/build/pdf.worker.js';
-
-    
-    var pdfDoc = null,
-        pageNum = selectedPageNum,
-        pageRendering = false,
-        pageNumPending = null,
-        scale = 3,
-        canvas = document.getElementById('pdf-canvas-3a1c0fc3'),
-        ctx = canvas.getContext('2d'),
-        paginator = document.getElementById("pdf-paginator-3a1c0fc3"),
-        loadingWrapper = document.getElementById('pdf-loadingWrapper-3a1c0fc3');
-
-
-    
-    showPaginator();
-    showLoader();
-
-    
-
-    function renderPage(num) {
-      pageRendering = true;
-      
-      pdfDoc.getPage(num).then(function(page) {
-        var viewport = page.getViewport({scale: scale});
-        canvas.height = viewport.height;
-        canvas.width = viewport.width;
-
-        
-        var renderContext = {
-          canvasContext: ctx,
-          viewport: viewport
-        };
-        var renderTask = page.render(renderContext);
-
-        
-        renderTask.promise.then(function() {
-          pageRendering = false;
-          showContent();
-
-          if (pageNumPending !== null) {
+    <main>
+        <article>
             
-            renderPage(pageNumPending);
-            pageNumPending = null;
-          }
-        });
-      });
-
-      
-      document.getElementById('pdf-pagenum-3a1c0fc3').textContent = num;
-    }
-
-    
-
-    function showContent() {
-      loadingWrapper.style.display = 'none';
-      canvas.style.display = 'block';
-    }
-
-    
-
-    function showLoader() {
-      if(hideLoader) return
-      loadingWrapper.style.display = 'flex';
-      canvas.style.display = 'none';
-    }
-
-    
-
-    function showPaginator() {
-      if(hidePaginator) return
-      paginator.style.display = 'block';
-    }
-
-    
-
-    function queueRenderPage(num) {
-      if (pageRendering) {
-        pageNumPending = num;
-      } else {
-        renderPage(num);
-      }
-    }
-
-    
-
-    function onPrevPage() {
-      if (pageNum <= 1) {
-        return;
-      }
-      pageNum--;
-      queueRenderPage(pageNum);
-    }
-    document.getElementById('pdf-prev-3a1c0fc3').addEventListener('click', onPrevPage);
-
-    
-
-    function onNextPage() {
-      if (pageNum >= pdfDoc.numPages) {
-        return;
-      }
-      pageNum++;
-      queueRenderPage(pageNum);
-    }
-    document.getElementById('pdf-next-3a1c0fc3').addEventListener('click', onNextPage);
-
-    
-
-    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
-      pdfDoc = pdfDoc_;
-      var numPages = pdfDoc.numPages;
-      document.getElementById('pdf-pagecount-3a1c0fc3').textContent = numPages;
-
-      
-      if(pageNum > numPages) {
-        pageNum = numPages
-      }
-
-      
-      renderPage(pageNum);
-    });
-    })();
-</script><span> <a href="http://localhost:1313/service_learning/brochure/">Read more...</a></span>
-    </p>
-</article>
-<article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/service_learning/newsletter/">The First Tee Southeastern New Mexico Newsletter</a></h3>
-
-    <p class="blog-post-info">Posted: <time>2025-02-24</time>
-    
-
-
-</p>
-    <p><div class="embed-pdf-container" id="embed-pdf-container-3208fb01">
+            <h1 class="page-title">The First Tee Southeastern New Mexico Newsletter</h1>
+            
+                <div class="embed-pdf-container" id="embed-pdf-container-3208fb01">
     <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-3208fb01">
         <div class="pdf-loading" id="pdf-loading-3208fb01"></div>
     </div>
@@ -421,12 +229,12 @@ View the PDF file <a class="pdf-source" id="pdf-source-noscript-3208fb01" href="
       renderPage(pageNum);
     });
     })();
-</script><span> <a href="http://localhost:1313/service_learning/newsletter/">Read more...</a></span>
-    </p>
-</article>
+</script>
 
 
-</main>
+            
+        </article>
+    </main>
 
         </div><footer>
     <span></span>
