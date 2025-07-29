@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Stone Fields - Barry Lyndon </title>
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/styles.min.8be49549291734e8dbffdde14aa7b86660f305acf5c918a28b24ac0a2ee16217.css">
+    
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Spectral&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/custom.css">
+    <meta charset="UTF-8">
+    <meta name="author" content="&lt;Stone Fields&gt;">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<header class="page-header">
+    <div class="myname"> 
+        <h2><a href="http://localhost:1313/">&lt; Stone Fields &gt;</a></h2> 
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="">
+                <a href="/">
+                    <span>Home</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/writing/">
+                    <span>Writing</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/research/">
+                    <span>Research</span>
+                </a>
+            </li>
+            <li class="dropdown activetab">
+                <a href ="/reviews/">
+                    <span>Reviews</span>
+                </a>
+                <div class=sub-menu>
+                    <a class="" href="/reviews/movie_reviews/">Movie Reviews</a>
+                    <a class="" href="/reviews/book-reviews/">Book Reviews</a>
+                </div>
+            </li>
+            <li class="">
+                <a href="/service_learning/">
+                    <span>Service Project</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/cool_stuff/">
+                    <span>Cool Stuff</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="content">
+    <main>
+        <article>
+            
+            <h1 class="page-title">Barry Lyndon</h1>
+            
+                <p>To start, it goes without saying that this is one of the most beautiful movies I have ever seen. My roommate told me that this movie was shot entirely with natural lighting and this created a few very interesting effects. A lot of the aristocratic, various viscounts and countesses alike, had what appeared to be a somewhat sickly pallor. Many scenes in this movie looked like literal paintings. I feel like I could simply take a high resolution screenshot of a few scenes and hang these up in a gallery.</p>
+<p>Second off, Barry Lyndon has a pretty awesome plot and story. Initially, I was really rooting for Redmond for the entire first &ldquo;half&rdquo; of the movie. I was so depressed when he threw away a lot of the &ldquo;good&rdquo; things that were happening - him entering a higher sphere, marrying a beautiful wife and in some sense being vindicated for a life of hardship and suffering. But then I realized, there is a peering life-lesson that can be learned from this movie. This lesson can be summarized by the following quote from the movie:</p>
+<p>&ldquo;Barry was one of those born clever enough at gaining a fortune but incapable of keeping one for the qualities and energies which lead a man to achieve the first are often the cause of his ruin in the latter case&hellip;&rdquo;</p>
+<p>Barry was an opportunist, and in large part that really was all he was. He had to become one in order to survive, in order to be removed from the circumstances he was tricked into. But along the way, opportunists who seize every glimmer of success or comfort develop a certain hubris: the idea that they are self-made men.</p>
+<p>But the irony in a lot of this is that Barry took Lady Lyndon&rsquo;s name, and he pilfered their wealth and used it frivolously. Barry could never be happy where he was, so he needed more and more; he needed to keep ascending the social ladder until what?</p>
+<p>I&rsquo;m not sure even Barry knew when he needed to stop. Maybe it is that he could never look around and see what he had all around him. Temperance is a virtue, and maybe something that Barry never had the chance or will to learn. Be happy with what you have, and recognize that the things that are given to you, the accomplishments you achieve, are not done by your own merit. They&rsquo;re accomplished with the help of your friends, your family, people that care about you, but also, by people who secretly plot your downfall and can&rsquo;t stand you.</p>
+<p>Be happy with what you have, wherever you might be.</p>
+<p>5/5</p>
+
+            
+        </article>
+    </main>
+
+        </div><footer>
+    <span></span>
+</footer>
+<div id="quoteBox" style="position: fixed; bottom: 10px; right: 10px; background: rgba(255,255,255,0.8); padding: 10px; border-radius: 8px; cursor: pointer; max-width: 300px; box-shadow: 0 0 10px rgba(0,0,0,0.3);" onclick="cycleQuote()">
+  "Click me for a new quote!"
+</div>
+
+<script>
+const quotes = [
+  "It is the mark of an educated mind to be able to entertain a thought without accepting it - Aristotle",
+  "My destination is no longer a place, rather a new way of seeing - Marcel Proust",
+  "I am made and remade continually. Different people draw different words from me - Virginia Woolf",
+  "And so it goes... - Kurt Vonnegut",
+  "If you look for perfection, you'll never be content - Leo Tolstoy"
+];
+
+let currentQuote = 0;
+
+function cycleQuote() {
+  currentQuote = (currentQuote + 1) % quotes.length;
+  document.getElementById('quoteBox').innerText = quotes[currentQuote];
+}
+</script>
+</body>
+</html>

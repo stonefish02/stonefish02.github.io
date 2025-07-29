@@ -1,0 +1,33 @@
++++
+date = '2025-02-24T13:33:25-06:00'
+title = 'Cure'
+
+name = 'Cure'
+weight = 51
++++
+
+
+
+
+
+Hey, it’s been a while. Who are you?
+
+I haven’t written a review in some time. There’s a long list of movies that need to be explored. But maybe I’ve been suffering from Anxiety of Influence from reading too much Pauline Kael, or I’ve had too much to say about a movie and thereby not enough gall to post something I might deem as incomplete.
+
+Until recently, I was maybe dreading my impulse to write a review for everything. After watching Cure, after I came back up plumbing down in the questions of self, after recognizing the horrifying screech and din of the most common ambient noises, it permanently changed my brain chemistry…. I knew I had to write a review immediately.
+
+I’ve never really been all that convinced by hypnotism, but I remember a story my grandpa told me a year ago. He had a conversation with someone in New Orleans who was an orthodontist who supposedly used hypnosis instead of anesthesia. He is having a conversation with said orthodontist one day, and my grandpa says, “You know, that hypnotism stuff is bologna…” Then the orthodontist begins speaking, and then all of a sudden my grandpa wakes up. The conversation ends, and the orthodontist says “take care, Chuck.”
+
+***
+
+To this day, my grandpa still has no idea if he was hypnotized or not. Generally, like my grandpa, we think of some kind of snake oil-y “doctor” waving a pocket watch in front of your face and suggesting that maybe you should lay back on the American Spirit Dark Blues. However, what this movie demonstrates is that hypnotism can also lie in the banal and everyday, - it consists of droning laundry machines and repetitive dripping of a faucet - perhaps a symbol for the abyss of everyday monotony through our process as a bipedal biological clock. This movie is able to take everyday drone and rhythm - even a puddle of water - and turn it into one of the most disturbing movie experiences I have ever felt.
+
+I found that many times throughout the movie (even before Mamiya takes centerstage) I would feel like I was having a hard time concentrating - that I was about to doze off as the waves were surging in the back, or as I felt the pounding of my own heartbeat. Combine this with the liminal, long cuts, and we have a world in which detectives shoot coworkers, doctors de-mask healthy people, teachers murder their wives - all of which may be only a few suggestions away. At the core of this movie lies the suggestion that evil is not as far as one might think, and actually might be the “cure” for what the victims think is a disease: a vacuous one in which inside and outside are one; it is an acknowledgement of the all-consuming abyss lying in the core of human beings.
+
+Mamiya seems to be one of the acolytes for this movement, this certain type of “nirvana” in which he is constantly forgetting who he is. It might be thought that our ego is in some way tied to our identity, and hence why Mamiya is always forgetting who he is. Mamiya is in some sense trying to get people to realize that they are truly monkeys in cages, and that his Mesmer path is the true way to salvation. I’m not exactly sure why these people are murdering others. The first assumption might be that Mamiya is suggesting the action, but this is not actually shown on screen. Maybe they think it is the way to be free? Or maybe, it is their way of grounding themselves when they have been “emptied” as Mamiya. It is even possible that Mamiya is actually not a villain. He could be thought to be a representative of some innate evil of humanity, or really is a person who truly wishes people to experience freedom from the adversarial ego. It seems that some people might be unwilling to let go of their memories or their identity, so much so they are willing to carve up even those they love. I’m not sure which one of these is more terrifying.
+
+Takabe is a very interesting character in this way because it can be shown that he becomes Mamiya at the end of the movie, on a never ending mission trip where he tries to free the supposed monkeys in the cage. Takabe is suffering due to his work, but also because of his wife’s early onset dementia. His resentment for Mamiya might be thought to be a culmination of real world stressors, but also could be a deep seated jealousy for wanting to be free from his wife. Either of these interpretations make sense, but I find that the ending of the movie more directly synergizes with the second of the two, as Takabe seems to have attained a similar state to Mamiya.
+
+I found this movie to be one of my favorite novel experiences in recent times, and provides a very significant counterpoint or quandary to non-dual experience. Maybe an important component to nirvana is a strong sense of empathy, for without it, we may be looking to heinous acts to keep ourselves grounded in a world where we can’t even be sure of our “self” even existing. This movie is a new favorite of mine… but what if I forget that eventually too? Is my enjoyment of this movie a delusion I tell myself to hold onto any semblance of what is me? I don't know.
+
+5/5, but a really high 5/5.
