@@ -1,15 +1,19 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Stone Fields'
-
 theme = 'classy'
+
 [params]
-author='<Stone Fields>'
-siteHeading = '< Stone Fields >'
-mainSections = ['Home', 'Reviews', 'Writing','Research','Cool Stuff', 'Service']
-showTaxonomyLinks = false
+  siteHeading = '< Stone Fields >'
+  mainSections = ['Home', 'Reviews', 'Writing', 'Cool Stuff', 'Japan']
+  showTaxonomyLinks = false
+
+[params.author]
+  name = 'Stone Fields'
+  email = ''
+
 [taxonomies]
-year = "year"
-month = "month"
-tags = "tags"
-categories = "categories"
+  year = "year"
+  month = "month"
+  tags = "tags"
+  categories = "categories"

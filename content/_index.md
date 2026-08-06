@@ -14,9 +14,9 @@ weight = 5
  
 
 
-**Hello there!** My name is Stone Fields. I am an undergraduate Mathematics student at Texas Tech University with a minor in Technical Communication. While I am passionate about mathematical research, I am equally dedicated to mindful, effective communication and the exploration of both the world and the self.
+**Hello there!** My name is Stone Fields. I am a recent graduate from Texas Tech University with a bachelor's and master's in mathematics.
 
-Initially, I was a humanities-focused student throughout middle and high school. However, after taking Calculus III and Linear Algebra, I met my advisor Álvaro Pámpano and began researching topics in Riemannian geometry and geometric analysis. Studying mathematics has strengthened my logical thinking while also teaching me the value of resilience and the importance of entering a flow state.
+Initially, I was a humanities-focused student throughout middle and high school. However, after taking Calculus III and Linear Algebra, I met my advisor Álvaro Pámpano and began researching topics in Riemannian geometry and geometric analysis. Studying mathematics has strengthened my logical thinking while also teaching me the value of resilience and the importance of entering a flow state. Following my master's work and research, I joined the JET program as an Assistant Language Teacher in August 2026. From here, I am working to hone my craft as a writer and general independent researcher. 
 
-Unfortunately, time is finite, and I cannot learn everything I would like to. As a result, I explore the intersections of my major and minor—not only through mathematical research but also through critiques of films, books, and other media. I strive to connect these fields under the broader themes of teaching and self-improvement. The vehicle for such themes is through the essay. The french word "essai" means "attempt" - everything begins with an attempt; it all begins with scratch work. It is through trial and error that I believe most topics - including mathematics and English - can be united. 
+Unfortunately, time is finite, and I cannot learn everything I would like to. As a result, I explore the intersections of my degrees through mathematical research, general essay writing, and critiques of films, books, and other media. I can not guarantee a homogeneity of style, or even any explanation for what my writing is to achieve in the end; but what I can guarantee is that it will be authentically myself: this writing may be a bus to nowhere, but is a destination necessary?
 

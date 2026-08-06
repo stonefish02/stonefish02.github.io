@@ -1,0 +1,23 @@
+cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
+
+  
+    Japan Blog on Stone Fields
+    http://localhost:1313/japanblog/
+    Recent content in Japan Blog on Stone Fields
+    Hugo -- gohugo.io
+    en-us
+    
+    
+    Sun, 23 Feb 2025 17:00:34 -0600%!(EXTRA string=http://localhost:1313/japanblog/index.xml, media.Type=application/rss+xml)
+    
+      Moby Dick is a Pink Gilded Breakfast Ticket (Blog 1)
+      http://localhost:1313/japanblog/blog1_aug_6_2026/
+      Mon, 01 Jan 0001 00:00:00 +0000
+      
+      http://localhost:1313/japanblog/blog1_aug_6_2026/
+      &lt;p&gt;So this will be the first blog entry. It feels a little bit rushed, but for the time being, it&amp;rsquo;s really just about getting the ball rolling, and getting into the habit of making semi-frequent posts. That being said, I am not so certain if I will make it a weekly endeavor. Maybe it will become an event that I post when I feel like a sufficient amount happens, interspersed with the occasional essay or thought to keep things fresh. This blog is here to give people my experience as a teacher in Hyogo-ken, but more broadly as an American living in Japan. Whether this move was an escape, or me running along the path I need to traverse is not fully clear to me at this point; I think that line is rather thin. This blog is apart of a broader mindfulness program on my part, and as such, some of the posts might be a little dense, perhaps even terse at times. But, for those who are not my direct friends and family, I can also guarantee you that it will be worth reading outside of seeing what is happening to me. I am hoping to develop more of a knack for writing non-fiction. Where this will lead me in my future career endeavors is yet to be fully realized, but many good things turn out to be materially fruitless.&lt;/p&gt;
+    
+    
+  
+
+EOF

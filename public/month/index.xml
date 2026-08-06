@@ -1,26 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Stone Fields</title>
-        <link>http://localhost:1313/month/</link>
-        <description>Latest blog posts from Stone Fields</description>
+cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
 
-        
-        <language>en-us</language>
-        
+  
+    Month on Stone Fields
+    http://localhost:1313/month/
+    Recent content in Month on Stone Fields
+    Hugo -- gohugo.io
+    en-us
+    
+    
+    %!(EXTRA string=http://localhost:1313/month/index.xml, media.Type=application/rss+xml)
+  
 
-        
-
-        
-
-        
-
-        
-
-        
-        <atom:link href="http://localhost:1313/month/index.xml" rel="self" type="application/rss+xml" />
-        
-
-        
-    </channel>
-</rss>
+EOF

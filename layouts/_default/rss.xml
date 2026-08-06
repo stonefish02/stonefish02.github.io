@@ -1,0 +1,40 @@
+cat << 'EOF' > "themes/classy/layouts/_default/rss.xml"
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if .IsHome -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "" | safeHTML }}
+
+  
+    {{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}
+    {{ .Permalink }}
+    Recent content {{ if ne .Title .Site.Title }}in {{ .Title }} {{ end }}on {{ .Site.Title }}
+    Hugo -- gohugo.io
+    {{ site.Language.LanguageCode }}
+    {{ with .Site.Params.author.email }}{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}{{ end }}
+    {{ with .Site.Params.author.email }}{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}{{ end }}
+    {{ if not .Date.IsZero }}{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}{{ end }}
+    {{- with .OutputFormats.Get "RSS" -}}
+    {{ printf "" .Permalink .MediaType | safeHTML }}
+    {{- end -}}
+    {{ range $pages }}
+    
+      {{ .Title }}
+      {{ .Permalink }}
+      {{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}
+      {{ with $.Site.Params.author.email }}{{ . }}{{ with $.Site.Params.author.name }} ({{ . }}){{ end }}{{ end }}
+      {{ .Permalink }}
+      {{ .Summary | html }}
+    
+    {{ end }}
+  
+
+EOF

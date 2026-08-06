@@ -1,28 +1,71 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Stone Fields</title>
-        <link>http://localhost:1313/reviews/book-reviews/</link>
-        <description>Latest blog posts from Stone Fields</description>
+cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
 
-        
-        <language>en-us</language>
-        
+  
+    Book Reviews on Stone Fields
+    http://localhost:1313/reviews/book-reviews/
+    Recent content in Book Reviews on Stone Fields
+    Hugo -- gohugo.io
+    en-us
+    
+    
+    Sun, 23 Feb 2025 17:00:34 -0600%!(EXTRA string=http://localhost:1313/reviews/book-reviews/index.xml, media.Type=application/rss+xml)
+    
+      The Art of Rhetoric by Aristotle
+      http://localhost:1313/reviews/book-reviews/rhetoric/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/rhetoric/
+      &lt;p&gt;The Art of Rhetoric by Aristotle is a collection of Aristotle’s lecture notes and manuscripts detailing rhetoric, which Aristotle quickly goes on to define as an art. If you wish to undertake the journey of reading all of Aristotle’s significant works, this is definitely one that should be in the lineup and is certainly one of his more practical works. Though there are terse and dense sections in which Aristotle unfolds definitions into their consequences, I find that this work was more digestable than something like the Nicomachean ethics (though, there were definitely a lot of times where I would need to reread passages…)  which spends large amounts of time working over logical consistency.&lt;/p&gt;
+    
+    
+    
+      Metamorphoses by Ovid
+      http://localhost:1313/reviews/book-reviews/metamorphoses/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/metamorphoses/
+      &lt;p&gt;The Metamorphoses by Ovid is an epic, transformative, and genre defining work that I have been looking forward to reading for a very long time. When I was in Middle School, I was classically educated, and as such read a lot of classic literature like the Three Theban Plays, the Iliad, The Aeneid, and so on. Particularly, we spent a lot of time on Horace and Lucretius, but we were absolutely forbidden to read any Ovid, especially The Metamorphoses. It was treated like a corrupted relic - too strange, too lascivious for people to read.&lt;/p&gt;
+    
+    
+    
+      The Waves by Virginia Woolf
+      http://localhost:1313/reviews/book-reviews/waves/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/waves/
+      &lt;p&gt;The Waves is one of those books one simply must read.&lt;/p&gt;
+&lt;p&gt;This book is so good… it is incredibly sublime. It is not an easy read and this book definitely benefits from a slow, deep read (much like Woolf’s other works in general.) This book is a stream of consciousness style embodied, but it is so much sweeter and more predictable than Joyce or Pynchon (not knocking the two by any means.) The book is incredibly melodic and transcendent, emphasizing the ebbs and flows of prose. The premise of this book is genius as a whole.&lt;/p&gt;
+    
+    
+    
+      100 Years of Solitude by Gabriel Garcia Marquez
+      http://localhost:1313/reviews/book-reviews/100-years-of-solitude/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/100-years-of-solitude/
+      &lt;p&gt;One Hundred Years of Solitude by Gabriel Garcia Marquez is a 20th century masterpiece which transcends time and space – it is a novel that occurs in the past, present, and future all at once and exerts its influence across all of space, beginning in the concept of Macondo, and exerts its presence throughout our lives.&lt;/p&gt;
+&lt;p&gt;To start, this book is so technically tight and cohesive. Concepts or events that are mentioned are very intentional in this work. It felt like there were so many times where I would solve little puzzles inside of this book, I would find easter eggs, or references from 300 pages previously in the book. This novel is such a sumptuous display of language and memory. It is hilarious, depraved, and wildly profound. This book is the full package, and never overstays its welcome. This is one of the few books (alongside Don Quixote) that I have wanted to immediately reread in its entirety. It felt like I had no idea where the story was going, but it simultaneously felt so familiar given some prior experience in history. This story is the story of Latin America, our lives, and the world all wrapped into one; but it might be thought that these stories are of the same essence.&lt;/p&gt;
+    
+    
+    
+      The master and Margarita by Mikhail Bulgakov
+      http://localhost:1313/reviews/book-reviews/essay4/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/essay4/
+      &lt;p&gt;The master and Margarita is a sprawling masterpiece which is unapologetic in its celebration of freedom and art. Deeply anti-authoritarian in nature, this opposition to the quelling of creative processes is present not only in Bulghakov’s  portrayal of Soviet society, but also composes the nature of his entire work. At first sight, this book is an absurd magical realist book which has prose typical of the genre. Most of the humor in this book has a basis in overstimulation and ridiculousness, but also in its very striking satire. One of the most beautiful things about this satire is that as you being to understand more about the history of the Soviet Union, the more poignant it becomes. Even from the very beginning in which the duo Berlioz and Ivan Homeless drink warm apricot soda is emblematic of the economic reality of the Soviet Union: constant shortages and simply making do.&lt;/p&gt;
+    
+    
+    
+      The Nicomachean Ethics by Aristotle
+      http://localhost:1313/reviews/book-reviews/aethics/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/aethics/
+      &lt;p&gt;How ought one to live life? What is the chief good amongst others? What does happiness mean? How do I get there?&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;Aristotle seeks to answer all these questions in the Nichomachean Ethics. This book forces you to be better. Whether you believe in the ideas of virtue ethics or not, this book forces you to adapt. Aristotle creates many intricate arguments about why one ought to be virtuous and what virtues to pursue. This book has completely changed my outlook on who I am as a person and has made me recognize a significant amount of my own shortcomings. This book condenses most of self-help culture that has been tainted by consumerism into 276 pages of lectures.&lt;/p&gt;
+    
+    
+  
 
-        
-
-        
-
-        
-
-        
-        <lastBuildDate>Sun, 23 Feb 2025 17:00:34 -0600</lastBuildDate>
-        
-
-        
-        <atom:link href="http://localhost:1313/reviews/book-reviews/index.xml" rel="self" type="application/rss+xml" />
-        
-
-        
-    </channel>
-</rss>
+EOF

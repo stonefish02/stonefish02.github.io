@@ -1,28 +1,1302 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Stone Fields</title>
-        <link>http://localhost:1313/</link>
-        <description>Latest blog posts from Stone Fields</description>
+cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
+
+  
+    Home on Stone Fields
+    http://localhost:1313/
+    Recent content in Home on Stone Fields
+    Hugo -- gohugo.io
+    en-us
+    
+    
+    Sun, 23 Feb 2025 17:00:34 -0600%!(EXTRA string=http://localhost:1313/index.xml, media.Type=application/rss+xml)
+    
+      Solaris
+      http://localhost:1313/reviews/movie_reviews/solaris/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/solaris/
+      &lt;p&gt;Solaris is not a Sci-Fi film that expands the world, but contracts it until it comes caving in on the very makeup of our existence: memory, emotion, and the nature experience itself.&lt;/p&gt;
+&lt;p&gt;Having watched movies such as Ex Machina and Annihilation by Alex Garland, I have developed a new taste for certain breeds of Sci-Fi movies. I realized that I tend to prefer Sci-Fi that forgets space, and explores the mind, rather than cool or breath-taking intellectual property. Both films were thought-provoking and gorgeously rendered, yet neither of those movies was able to fully capture the essence of what I would consider a 5 star movie; there was some kind of slight innate incompleteness that I was unable to grasp.&lt;/p&gt;
+    
+    
+    
+      Memories of Murder
+      http://localhost:1313/reviews/movie_reviews/memories-of-murder/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/memories-of-murder/
+      &lt;p&gt;Hey you. Yeah, YOU. You look a little guilty. Yeah, why are you so sweaty right now? You wont look me in the eye. You look nervous… there’s nothing to be nervous about here, especially if you didn’t do anything wrong. What have you been up to? Oh I see… That’s not what I heard. Why are you lying to me? There’s no reason for you to be lying unless you had something to hide. Yeah, I saw you walking around earlier. Everyone was grimacing as you were walking by like they knew something about you. I can tell when a man is guilty; I can see it in your eyes. Do you really think that bad men go unpunished?&lt;/p&gt;
+    
+    
+    
+      The Truman Show
+      http://localhost:1313/reviews/movie_reviews/cure/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/cure/
+      &lt;p&gt;Hey kids!&lt;/p&gt;
+&lt;p&gt;What if I installed an information hazard in your brain? An information hazard is a thought or worldview which when communicated can permanently hijack your conscious life. Well, you’re reading my review so you can’t really avoid it at this point per Sunken Cost Fallacy. Did you know that it is an unfalsifiable belief that everything might simply be a creation of your mind, that all of your friends are simply figments of your imagination? Such a world view is called &amp;ldquo;Solipsism,&amp;rdquo; and though it is not directly espoused by people, has indirectly gained ground in recent years.&lt;/p&gt;
+    
+    
+    
+      Cure
+      http://localhost:1313/reviews/movie_reviews/the-truman-show/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/the-truman-show/
+      &lt;p&gt;Hey, it’s been a while. Who are you?&lt;/p&gt;
+&lt;p&gt;I haven’t written a review in some time. There’s a long list of movies that need to be explored. But maybe I’ve been suffering from Anxiety of Influence from reading too much Pauline Kael, or I’ve had too much to say about a movie and thereby not enough gall to post something I might deem as incomplete.&lt;/p&gt;
+&lt;p&gt;Until recently, I was maybe dreading my impulse to write a review for everything. After watching Cure, after I came back up plumbing down in the questions of self, after recognizing the horrifying screech and din of the most common ambient noises, it permanently changed my brain chemistry…. I knew I had to write a review immediately.&lt;/p&gt;
+    
+    
+    
+      The Room
+      http://localhost:1313/reviews/movie_reviews/the-room/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/the-room/
+      &lt;p&gt;Utterly baffling. The worst movie I have ever seen, which has quite the allure. My personal hell consists in being the football passed between Johnny and his supposed best friend Mark. Is Tommy even playing a character or is he just in the movie?&lt;/p&gt;
+&lt;p&gt;0/5 or 5/5, imagine you take the equivalence relation ~ that maps 0 to 1 on the interval [0,1) and you get S^1. This movie is the unit circle.&lt;/p&gt;
+    
+    
+    
+      The Last Showgirl
+      http://localhost:1313/reviews/movie_reviews/the-last-showgirl/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/the-last-showgirl/
+      &lt;p&gt;The Last Showgirl is an American film released in 2024 starring Pamela Anderson. Pamela plays Shelly Gardner, a long term Showgirl at La Razzle Dazzle. She possesses an innate struggle with her occupation and her role as a mother, and also the general stigmatization of showgirl business. Such struggle manifests in prejudice, self-hatred, and a desire for amending her relationship with her daughter and other dancers. This movie investigates some heavy topics, including mortality, beauty, and motherhood, all of which blend together to create a very touching meditation. However, there are a few crucial problems with this film.&lt;/p&gt;
+    
+    
+    
+      Dr. Strangelove
+      http://localhost:1313/reviews/movie_reviews/dr.-strangelove/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/dr.-strangelove/
+      &lt;p&gt;I watched this movie under the supervision of my movie sensei Knox.&lt;/p&gt;
+&lt;p&gt;Dr. Strangelove is a military man’s wet dream, but it is certainly not a blonde haired bombshell. No, Dr. Strangelove makes the argument that the military men’s hyper masculinity and love for military superiority is so perverse that it may as well be a form of…. Strange love. Phallic imagery is on display throughout this movie, such as the airplace refueling scene, and the B52 dangling superimposed in the sky. It is very reminiscent of Thomas Pynchon, in which he equates the American rocket to the phallus. Even the president is talking like he is in bed with the Russian president.&lt;/p&gt;
+    
+    
+    
+      Annihilation
+      http://localhost:1313/reviews/movie_reviews/annihlation/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/annihlation/
+      &lt;p&gt;I watched this movie under the supervision of my movie senseis Eben and Knox.&lt;/p&gt;
+&lt;p&gt;Annihilation. This movie has a somewhat unlikable cast of characters, and it feels as though there are a lot of gaps in this movie’s motivation. Yes, I get it that these characters are incredibly troubled and thus are willing to essentially go on a suicide mission to obtain more information about the light house, but why only these 5 people? I know they are all crazy and traumatized, but still. Maybe I should care less about the lens cap being on the camera, but I feel like this movie leaves a lot of questions regarding the characters and their motives. Another gripe I have is that the dialogue is incredibly simplistic. Though, it could be argued that this simple dialogue is rather sparse intentionally, which could be lending to the general puzzle that is this film. The characters at times felt somewhat flat, which led me to feeling slightly disconnected from the film at times.&lt;/p&gt;
+    
+    
+    
+      The Act of Killing
+      http://localhost:1313/reviews/movie_reviews/the-act-of-killing/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/the-act-of-killing/
+      &lt;p&gt;Wow, I mean just wow. This documentary is one of the most profound things I have ever seen, and immediately goes in the top 4 for now. In The Act Of Killing, fact is stranger than fiction as we follow Anwar Congo, a movie theater gangster involved in systemic executions of “communists” in Indonesia during the 1960’s. Tangentially, we also get to meet other affiliates in these death squads, and get the opportunity to see these people take main creative control of the documentary, where they reenact some of the killings and events that occurred during their time.&lt;/p&gt;
+    
+    
+    
+      Sinners
+      http://localhost:1313/reviews/movie_reviews/sinners/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/sinners/
+      &lt;p&gt;Sinners was a breath of fresh air in the midst of Hollywood carbon copies, mass churned marvel movies, and some general disillusionment with modern cinema from myself/others.&lt;/p&gt;
+&lt;p&gt;To be honest, going into this movie I did not have the highest hopes. In the trailers, the use of allegory is not nearly as pronounced and might have a draw primarily through the novelty of Michael B. Jordan playing two characters. But, I came away being more than pleased with this movie. A lot of the allegories that really make this movie great were not very present in the trailers, and these slight subtleties took something which seemed like something banal and presented something much more ambitious and revitalizing.&lt;/p&gt;
+    
+    
+    
+      Network
+      http://localhost:1313/reviews/movie_reviews/network/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/network/
+      &lt;p&gt;I watched this movie on May 25th under the supervision of my movie sensei Knox.&lt;/p&gt;
+&lt;p&gt;In this movie, everyone is mad as hell, and seemingly they are not going to take it anymore. We all feel on the verge of change, but rarely act—and when we do, we retreat into old habits. Even when we do make an effort, we change our minds because we want to go back to how things were previously. It is easy to feel as though we are simply viewers of our own lives, as though we are trapped in a 24 hour news cycle in our own lives where when we are happy we think about the next event or outcome that will increase this further.&lt;/p&gt;
+    
+    
+    
+      Good Morning
+      http://localhost:1313/reviews/movie_reviews/good-morning/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/good-morning/
+      &lt;p&gt;I feel strange having written all these reviews that have 4.5 or 5 stars, but I feel as if I have been spoiled by my movie parents.&lt;/p&gt;
+&lt;p&gt;In any case, Good Morning by Ozu is a seemingly pretty silly movie. From button-activated flatulence to just wanting a damn TV to watch Sumo wrestling - not a whole lot happens in this movie. I think where this movie truly shines is in visual prowess. I wish Ozu would come into my home and show me what I am doing wrong. This movie is beautiful in terms of color coordination and set design.&lt;/p&gt;
+    
+    
+    
+      Rushmore
+      http://localhost:1313/reviews/movie_reviews/rushmore/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/rushmore/
+      &lt;p&gt;Though I rate this a 4.5/5, as it&amp;rsquo;s maybe not as impactful as something I would rate a 5, I have a lot to say about this movie.&lt;/p&gt;
+&lt;p&gt;To start, I am literally Max Fischer. No, it&amp;rsquo;s not because I am into older women (though that has happened before and might qualify me in that regard.) No, it&amp;rsquo;s not in my sheer genius at devising conniving and evil ways of getting back at my friend who &amp;ldquo;stole&amp;rdquo; said older woman. Yes, it&amp;rsquo;s because I wish I could do the things that I want to do and not get bogged down by seemingly useless and monotonous stuff that I don&amp;rsquo;t really care about.&lt;/p&gt;
+    
+    
+    
+      Adaptation
+      http://localhost:1313/reviews/movie_reviews/adaptation/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/adaptation/
+      &lt;p&gt;This movie is a massive dumpster fire in a pretty cool way. There are some really interesting themes and a ton of meta moments that deliver a very cerebral experience. First off, I had no idea that the Orchid Thief was a real book in the first place. Then to make an entire movie about Charlie Kaufman himself, who is on the set for Being John Malkovich, struggling with writer&amp;rsquo;s block over this seemingly random book is insane. This is a true story too, with Charlie Kaufman actually having struggled to adapt in real life.&lt;/p&gt;
+    
+    
+    
+      The Big Lebowski
+      http://localhost:1313/reviews/movie_reviews/the-big-lebowski/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/the-big-lebowski/
+      &lt;p&gt;The Big Lebowski.&lt;/p&gt;
+&lt;p&gt;This movie is interesting, because it has a really horrible Movie poster and at first glance seemed like another Hangover or Grown-ups type comedy movie. My assumptions were completely wrong and this movie has since grown to be one of my favorites.&lt;/p&gt;
+&lt;p&gt;Overall, this movie is on one hand about Nihilism. What is the meaning of life? Why is it that I keep putting up with the horrible things happening in my life? Why am I stuck in a dead-end job? Is it really all for naught? Well, one thing you should know: while you were sitting here complaining about such things, the dude is out there abiding. The dude abides.&lt;/p&gt;
+    
+    
+    
+      Barry Lyndon
+      http://localhost:1313/reviews/movie_reviews/barry-lyndon/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/barry-lyndon/
+      &lt;p&gt;To start, it goes without saying that this is one of the most beautiful movies I have ever seen. My roommate told me that this movie was shot entirely with natural lighting and this created a few very interesting effects. A lot of the aristocratic, various viscounts and countesses alike, had what appeared to be a somewhat sickly pallor. Many scenes in this movie looked like literal paintings. I feel like I could simply take a high resolution screenshot of a few scenes and hang these up in a gallery.&lt;/p&gt;
+    
+    
+    
+      A Taste of Cherry
+      http://localhost:1313/reviews/movie_reviews/taste-of-cherry/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/taste-of-cherry/
+      &lt;p&gt;This movie is uncomfortable in subject matter and also in execution. Suicide is a difficult topic to get right, as evident from media that depicts it such as 13 reasons why; that is, it is easy to glorify such things when the intent might be to de-stigmatize, but I think this movie strikes a very beautiful medium in portraying it.&lt;/p&gt;
+&lt;p&gt;Badii beats around the bush, he is pointed sometimes and in the end he gets someone to assist him in the act of taking his life. Again, there are super uncomfortable moments, such as the soldier at the beginning who knows his aim and won&amp;rsquo;t do so because it feels wrong. Then there is the student who won&amp;rsquo;t do it out of principle. These scenes are sometimes very awkward. Badii always talks about them, but never about himself.&lt;/p&gt;
+    
+    
+    
+      A Complete Unknown
+      http://localhost:1313/reviews/movie_reviews/acu/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/acu/
+      &lt;p&gt;Timothee was absolutely incredible in this movie, but I really feel like they dumbed down Dylan’s character here.&lt;/p&gt;
+&lt;p&gt;Perhaps this is an issue with time (or more generally with these modern Biopic movies about singers,) but this movie feels underdeveloped and somewhat flat.&lt;/p&gt;
+&lt;p&gt;There are some important events established in the beginning (Civil Rights, Cuban Missile Crisis, so on..) but there is little to no exposition as to why he made the songs he did and the ideas that made Dylan of such literary importance. I’m not arguing he had some clear arguments on what to do, but there is a lack of Dylan actually changing with respect to these events. It sometimes felt like Dylan was sort of passively having things happen to him.&lt;/p&gt;
+    
+    
+    
+      Everything, Everywhere, All at Once Movie Review
+      http://localhost:1313/reviews/movie_reviews/essay4/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/essay4/
+      &lt;p&gt;One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. &lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-ad009f57&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-ad009f57&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-ad009f57&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/reviews/movie_reviews/EEEAAO.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-ad009f57&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-ad009f57&#34;&gt;
+    &lt;button id=&#34;pdf-prev-ad009f57&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-ad009f57&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-ad009f57&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-ad009f57&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-ad009f57&#34; href=&#34;http://localhost:1313/reviews/movie_reviews/EEEAAO.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-ad009f57&#34; href=&#34;http://localhost:1313/reviews/movie_reviews/EEEAAO.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;\/reviews\/movie_reviews\/EEEAAO.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-ad009f57&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-ad009f57&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-ad009f57&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
 
         
-        <language>en-us</language>
-        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
 
         
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-ad009f57&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-ad009f57&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-ad009f57&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-ad009f57&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+&lt;/p&gt;
+    
+    
+    
+      Pattern Generation with AI
+      http://localhost:1313/cool_stuff/patterngeneration/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/cool_stuff/patterngeneration/
+      &lt;p&gt;AI has been used to supplement that creation of art and patterns generally speaking. However, as you remove AI from its integrated tools, it requires a new level of prompt engineering in order to receive a desired product. In this assignment, I tested ChatGPT and Gemini to see if these services could generate the classic cycloid on the sphere. &lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-cdc6ea04&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-cdc6ea04&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-cdc6ea04&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;prompt_library.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-cdc6ea04&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-cdc6ea04&#34;&gt;
+    &lt;button id=&#34;pdf-prev-cdc6ea04&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-cdc6ea04&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-cdc6ea04&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-cdc6ea04&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-cdc6ea04&#34; href=&#34;prompt_library.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-cdc6ea04&#34; href=&#34;prompt_library.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;prompt_library.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-cdc6ea04&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-cdc6ea04&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-cdc6ea04&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
 
         
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
 
         
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-cdc6ea04&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-cdc6ea04&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-cdc6ea04&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-cdc6ea04&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+&lt;/p&gt;
+    
+    
+    
+      The Art of Rhetoric by Aristotle
+      http://localhost:1313/reviews/book-reviews/rhetoric/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/rhetoric/
+      &lt;p&gt;The Art of Rhetoric by Aristotle is a collection of Aristotle’s lecture notes and manuscripts detailing rhetoric, which Aristotle quickly goes on to define as an art. If you wish to undertake the journey of reading all of Aristotle’s significant works, this is definitely one that should be in the lineup and is certainly one of his more practical works. Though there are terse and dense sections in which Aristotle unfolds definitions into their consequences, I find that this work was more digestable than something like the Nicomachean ethics (though, there were definitely a lot of times where I would need to reread passages…)  which spends large amounts of time working over logical consistency.&lt;/p&gt;
+    
+    
+    
+      Metamorphoses by Ovid
+      http://localhost:1313/reviews/book-reviews/metamorphoses/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/metamorphoses/
+      &lt;p&gt;The Metamorphoses by Ovid is an epic, transformative, and genre defining work that I have been looking forward to reading for a very long time. When I was in Middle School, I was classically educated, and as such read a lot of classic literature like the Three Theban Plays, the Iliad, The Aeneid, and so on. Particularly, we spent a lot of time on Horace and Lucretius, but we were absolutely forbidden to read any Ovid, especially The Metamorphoses. It was treated like a corrupted relic - too strange, too lascivious for people to read.&lt;/p&gt;
+    
+    
+    
+      The Waves by Virginia Woolf
+      http://localhost:1313/reviews/book-reviews/waves/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/waves/
+      &lt;p&gt;The Waves is one of those books one simply must read.&lt;/p&gt;
+&lt;p&gt;This book is so good… it is incredibly sublime. It is not an easy read and this book definitely benefits from a slow, deep read (much like Woolf’s other works in general.) This book is a stream of consciousness style embodied, but it is so much sweeter and more predictable than Joyce or Pynchon (not knocking the two by any means.) The book is incredibly melodic and transcendent, emphasizing the ebbs and flows of prose. The premise of this book is genius as a whole.&lt;/p&gt;
+    
+    
+    
+      100 Years of Solitude by Gabriel Garcia Marquez
+      http://localhost:1313/reviews/book-reviews/100-years-of-solitude/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/100-years-of-solitude/
+      &lt;p&gt;One Hundred Years of Solitude by Gabriel Garcia Marquez is a 20th century masterpiece which transcends time and space – it is a novel that occurs in the past, present, and future all at once and exerts its influence across all of space, beginning in the concept of Macondo, and exerts its presence throughout our lives.&lt;/p&gt;
+&lt;p&gt;To start, this book is so technically tight and cohesive. Concepts or events that are mentioned are very intentional in this work. It felt like there were so many times where I would solve little puzzles inside of this book, I would find easter eggs, or references from 300 pages previously in the book. This novel is such a sumptuous display of language and memory. It is hilarious, depraved, and wildly profound. This book is the full package, and never overstays its welcome. This is one of the few books (alongside Don Quixote) that I have wanted to immediately reread in its entirety. It felt like I had no idea where the story was going, but it simultaneously felt so familiar given some prior experience in history. This story is the story of Latin America, our lives, and the world all wrapped into one; but it might be thought that these stories are of the same essence.&lt;/p&gt;
+    
+    
+    
+      The master and Margarita by Mikhail Bulgakov
+      http://localhost:1313/reviews/book-reviews/essay4/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/essay4/
+      &lt;p&gt;The master and Margarita is a sprawling masterpiece which is unapologetic in its celebration of freedom and art. Deeply anti-authoritarian in nature, this opposition to the quelling of creative processes is present not only in Bulghakov’s  portrayal of Soviet society, but also composes the nature of his entire work. At first sight, this book is an absurd magical realist book which has prose typical of the genre. Most of the humor in this book has a basis in overstimulation and ridiculousness, but also in its very striking satire. One of the most beautiful things about this satire is that as you being to understand more about the history of the Soviet Union, the more poignant it becomes. Even from the very beginning in which the duo Berlioz and Ivan Homeless drink warm apricot soda is emblematic of the economic reality of the Soviet Union: constant shortages and simply making do.&lt;/p&gt;
+    
+    
+    
+      The Nicomachean Ethics by Aristotle
+      http://localhost:1313/reviews/book-reviews/aethics/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/book-reviews/aethics/
+      &lt;p&gt;How ought one to live life? What is the chief good amongst others? What does happiness mean? How do I get there?&amp;hellip;..&lt;/p&gt;
+&lt;p&gt;Aristotle seeks to answer all these questions in the Nichomachean Ethics. This book forces you to be better. Whether you believe in the ideas of virtue ethics or not, this book forces you to adapt. Aristotle creates many intricate arguments about why one ought to be virtuous and what virtues to pursue. This book has completely changed my outlook on who I am as a person and has made me recognize a significant amount of my own shortcomings. This book condenses most of self-help culture that has been tainted by consumerism into 276 pages of lectures.&lt;/p&gt;
+    
+    
+    
+      Personal Statement
+      http://localhost:1313/writing/essay3/
+      Mon, 24 Feb 2025 16:45:13 -0600
+      
+      http://localhost:1313/writing/essay3/
+      &lt;p&gt;In the Fall of 2024, I took a class at Texas Tech that studied the nature of story telling, and how its presentations change across media. In this essay, I write the Personal Statement in a stream of consciousness style letter that expounds the idea that we are asleep throughout most of our lives, and that waking up is the way to truly actualize your values and the will to do good. &lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-eda9226b&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-eda9226b&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-eda9226b&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/writing/SOP.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-eda9226b&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-eda9226b&#34;&gt;
+    &lt;button id=&#34;pdf-prev-eda9226b&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-eda9226b&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-eda9226b&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-eda9226b&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-eda9226b&#34; href=&#34;http://localhost:1313/writing/SOP.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-eda9226b&#34; href=&#34;http://localhost:1313/writing/SOP.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;\/writing\/SOP.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-eda9226b&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-eda9226b&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-eda9226b&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
 
         
-        <lastBuildDate>Sun, 23 Feb 2025 17:00:34 -0600</lastBuildDate>
-        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
 
         
-        <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-eda9226b&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-eda9226b&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-eda9226b&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-eda9226b&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+&lt;/p&gt;
+    
+    
+    
+      Ethical Analysis of AI Use in Mathematics
+      http://localhost:1313/writing/mathai/
+      Mon, 24 Feb 2025 13:24:17 -0600
+      
+      http://localhost:1313/writing/mathai/
+      &lt;p&gt;Mathematics is an art, and as such demands a certain level of respect to preserve its aesthetic integrity. Such a task can be very difficult, especially in the age of AI, in which it is now easier than ever to use external means of solving a problem. This paper analyzes the ethical implications of AI use, and poses the argument that inappropriate use of such tools can demean an incredibly experience worth having: the training of resilience, logical rigor, and mathematical unity and beauty.
+&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-beeabdae&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-beeabdae&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-beeabdae&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/writing/mathai.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-beeabdae&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-beeabdae&#34;&gt;
+    &lt;button id=&#34;pdf-prev-beeabdae&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-beeabdae&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-beeabdae&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-beeabdae&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-beeabdae&#34; href=&#34;http://localhost:1313/writing/mathai.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-beeabdae&#34; href=&#34;http://localhost:1313/writing/mathai.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;\/writing\/mathai.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-beeabdae&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-beeabdae&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-beeabdae&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
 
         
-    </channel>
-</rss>
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-beeabdae&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-beeabdae&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-beeabdae&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-beeabdae&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+&lt;/p&gt;
+    
+    
+    
+      George Orwell Style Analysis
+      http://localhost:1313/writing/essay2/
+      Mon, 24 Feb 2025 13:24:17 -0600
+      
+      http://localhost:1313/writing/essay2/
+      &lt;p&gt;Orwell is known as one of the most critically accalimed writers of the 21st century due to his unprecendented foresight of dystopian futures. However, an overlooked aspect of his success in writing can be attributed to his incredibly concrete and vivacious writing style. Through the use of fresh metaphors and concrete language, Orwell is able to create densely packed political perspective imbued with a simple and approachable prose. In this analysis, I point out such uses in his work Homage to Catalonia.
+&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-f3416a30&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-f3416a30&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-f3416a30&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/writing/GOSU.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-f3416a30&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-f3416a30&#34;&gt;
+    &lt;button id=&#34;pdf-prev-f3416a30&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-f3416a30&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-f3416a30&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-f3416a30&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-f3416a30&#34; href=&#34;http://localhost:1313/writing/GOSU.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-f3416a30&#34; href=&#34;http://localhost:1313/writing/GOSU.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;\/writing\/GOSU.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-f3416a30&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-f3416a30&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-f3416a30&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-f3416a30&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-f3416a30&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-f3416a30&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-f3416a30&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+&lt;/p&gt;
+    
+    
+    
+      Cormac McCarthy Immitation Piece
+      http://localhost:1313/writing/essay1/
+      Mon, 24 Feb 2025 12:34:34 -0600
+      
+      http://localhost:1313/writing/essay1/
+      &lt;p&gt;This artifact is a creative fiction short story that emulates the style of Cormac McCarthy. McCarthy is one of my favorite authors, and I really wanted to tackle his prose. Some people call his prose incredibly &amp;ldquo;muscular&amp;rdquo;, and with this story I created something that played on McCarthy&amp;rsquo;s stark, non-punctuated, and existential story-telling.
+&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-dec611bf&#34;&gt;
+    &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-dec611bf&#34;&gt;
+        &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-dec611bf&#34;&gt;&lt;/div&gt;
+    &lt;/div&gt;
+    &lt;div id=&#34;overlayText&#34;&gt;
+      &lt;a href=&#34;http://localhost:1313/writing/CMI.pdf&#34; aria-label=&#34;Download&#34; download&gt;
+        &lt;svg aria-hidden=&#34;true&#34; xmlns=&#34;http://www.w3.org/2000/svg&#34; viewBox=&#34;0 0 18 18&#34;&gt;
+            &lt;path d=&#34;M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z&#34; /&gt;
+        &lt;/svg&gt;
+      &lt;/a&gt;
+    &lt;/div&gt;
+    &lt;canvas class=&#34;pdf-canvas&#34; id=&#34;pdf-canvas-dec611bf&#34;&gt;&lt;/canvas&gt;
+&lt;/div&gt;
+
+&lt;div class=&#34;pdf-paginator&#34; id=&#34;pdf-paginator-dec611bf&#34;&gt;
+    &lt;button id=&#34;pdf-prev-dec611bf&#34;&gt;Previous&lt;/button&gt;
+    &lt;button id=&#34;pdf-next-dec611bf&#34;&gt;Next&lt;/button&gt; &amp;nbsp; &amp;nbsp;
+    &lt;span&gt;
+      &lt;span class=&#34;pdf-pagenum&#34; id=&#34;pdf-pagenum-dec611bf&#34;&gt;&lt;/span&gt; / &lt;span class=&#34;pdf-pagecount&#34; id=&#34;pdf-pagecount-dec611bf&#34;&gt;&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-dec611bf&#34; href=&#34;http://localhost:1313/writing/CMI.pdf&#34;&gt;[pdf]&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;noscript&gt;
+View the PDF file &lt;a class=&#34;pdf-source&#34; id=&#34;pdf-source-noscript-dec611bf&#34; href=&#34;http://localhost:1313/writing/CMI.pdf&#34;&gt;here&lt;/a&gt;.
+&lt;/noscript&gt;
+
+&lt;script type=&#34;text/javascript&#34;&gt;
+    (function(){
+    var url = &#39;\/writing\/CMI.pdf&#39;;
+
+    var hidePaginator = &#34;&#34; === &#34;true&#34;;
+    var hideLoader = &#34;&#34; === &#34;true&#34;;
+    var selectedPageNum = parseInt(&#34;&#34;) || 1;
+
+    
+    var pdfjsLib = window[&#39;pdfjs-dist/build/pdf&#39;];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == &#39;&#39;)
+      pdfjsLib.GlobalWorkerOptions.workerSrc = &#34;http:\/\/localhost:1313\/&#34; + &#39;js/pdf-js/build/pdf.worker.js&#39;;
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById(&#39;pdf-canvas-dec611bf&#39;),
+        ctx = canvas.getContext(&#39;2d&#39;),
+        paginator = document.getElementById(&#34;pdf-paginator-dec611bf&#34;),
+        loadingWrapper = document.getElementById(&#39;pdf-loadingWrapper-dec611bf&#39;);
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById(&#39;pdf-pagenum-dec611bf&#39;).textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = &#39;none&#39;;
+      canvas.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = &#39;flex&#39;;
+      canvas.style.display = &#39;none&#39;;
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = &#39;block&#39;;
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum &lt;= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-prev-dec611bf&#39;).addEventListener(&#39;click&#39;, onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum &gt;= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById(&#39;pdf-next-dec611bf&#39;).addEventListener(&#39;click&#39;, onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById(&#39;pdf-pagecount-dec611bf&#39;).textContent = numPages;
+
+      
+      if(pageNum &gt; numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+&lt;/script&gt;
+&lt;/p&gt;
+    
+    
+    
+      Teaching
+      http://localhost:1313/teaching/
+      Sun, 23 Feb 2025 15:44:26 -0600
+      
+      http://localhost:1313/teaching/
+      
+    
+    
+    
+      Moby Dick is a Pink Gilded Breakfast Ticket (Blog 1)
+      http://localhost:1313/japanblog/blog1_aug_6_2026/
+      Mon, 01 Jan 0001 00:00:00 +0000
+      
+      http://localhost:1313/japanblog/blog1_aug_6_2026/
+      &lt;p&gt;So this will be the first blog entry. It feels a little bit rushed, but for the time being, it&amp;rsquo;s really just about getting the ball rolling, and getting into the habit of making semi-frequent posts. That being said, I am not so certain if I will make it a weekly endeavor. Maybe it will become an event that I post when I feel like a sufficient amount happens, interspersed with the occasional essay or thought to keep things fresh. This blog is here to give people my experience as a teacher in Hyogo-ken, but more broadly as an American living in Japan. Whether this move was an escape, or me running along the path I need to traverse is not fully clear to me at this point; I think that line is rather thin. This blog is apart of a broader mindfulness program on my part, and as such, some of the posts might be a little dense, perhaps even terse at times. But, for those who are not my direct friends and family, I can also guarantee you that it will be worth reading outside of seeing what is happening to me. I am hoping to develop more of a knack for writing non-fiction. Where this will lead me in my future career endeavors is yet to be fully realized, but many good things turn out to be materially fruitless.&lt;/p&gt;
+    
+    
+  
+
+EOF

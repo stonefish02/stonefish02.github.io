@@ -2,9 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/service_learning/statement/</loc>
-    <lastmod>2025-02-24T13:24:17-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/reviews/movie_reviews/solaris/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
@@ -68,7 +65,13 @@
     <loc>http://localhost:1313/reviews/book-reviews/rhetoric/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/reviews/book-reviews/metamorphoses/</loc>
+    <lastmod>2025-02-24T13:33:25-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/reviews/book-reviews/waves/</loc>
+    <lastmod>2025-02-24T13:33:25-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/book-reviews/100-years-of-solitude/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reviews/book-reviews/essay4/</loc>
@@ -76,9 +79,6 @@
   </url><url>
     <loc>http://localhost:1313/reviews/book-reviews/aethics/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/service_learning/</loc>
-    <lastmod>2025-03-10T18:07:18-05:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/archive/</loc>
     <lastmod>2025-03-08T17:27:03-06:00</lastmod>
@@ -92,19 +92,10 @@
     <loc>http://localhost:1313/writing/essay3/</loc>
     <lastmod>2025-02-24T16:45:13-06:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/research/</loc>
-    <lastmod>2025-02-24T13:48:22-06:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/writing/mathai/</loc>
     <lastmod>2025-02-24T13:24:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/essay2/</loc>
-    <lastmod>2025-02-24T13:24:17-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/service_learning/brochure/</loc>
-    <lastmod>2025-02-24T13:24:17-06:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/service_learning/newsletter/</loc>
     <lastmod>2025-02-24T13:24:17-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/writing/essay1/</loc>
@@ -119,6 +110,9 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2025-02-23T17:00:34-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/japanblog/</loc>
+    <lastmod>2025-02-23T17:00:34-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/reviews/movie_reviews/</loc>
     <lastmod>2025-02-23T17:00:34-06:00</lastmod>
   </url><url>
@@ -129,6 +123,8 @@
     <lastmod>2025-02-23T15:44:26-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/japanblog/blog1_aug_6_2026/</loc>
   </url><url>
     <loc>http://localhost:1313/month/</loc>
   </url><url>

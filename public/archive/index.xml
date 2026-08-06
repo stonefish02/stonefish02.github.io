@@ -1,28 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-    <channel>
-        <title>Stone Fields</title>
-        <link>http://localhost:1313/archive/</link>
-        <description>Latest blog posts from Stone Fields</description>
+cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
 
-        
-        <language>en-us</language>
-        
+  
+    Archive on Stone Fields
+    http://localhost:1313/archive/
+    Recent content in Archive on Stone Fields
+    Hugo -- gohugo.io
+    en-us
+    
+    
+    Sat, 08 Mar 2025 17:27:03 -0600%!(EXTRA string=http://localhost:1313/archive/index.xml, media.Type=application/rss+xml)
+  
 
-        
-
-        
-
-        
-
-        
-        <lastBuildDate>Sat, 08 Mar 2025 17:27:03 -0600</lastBuildDate>
-        
-
-        
-        <atom:link href="http://localhost:1313/archive/index.xml" rel="self" type="application/rss+xml" />
-        
-
-        
-    </channel>
-</rss>
+EOF
