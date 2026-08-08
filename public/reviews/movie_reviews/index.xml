@@ -20,6 +20,15 @@ cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
     
     
     
+      Why Has Bodhi-Dharma Left for the East
+      http://localhost:1313/reviews/movie_reviews/why-has-bodhi-dharma-left-for-the-east/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/why-has-bodhi-dharma-left-for-the-east/
+      &lt;p&gt;Why Has Bodhi-Dharma Left for the East? is a film directed, written, and produced by Bang Yong-kyun. It is certainly a lesser known movie in 2025, having only around 1,500 ratings on Letterboxd. But, it is also known for being the one of the first South Korean movies to receive a theatrical release in the United States. This movie was created at a time before Korea had a substantial film canon, and in many facets is a movie antithetical to monetary success: it is uncompromising, slow, heavily spiritual, and reflective. This movie is in cohort with directors like Tarkovsky in its philosophical and spiritual spearheads, but in many ways this movie is just as inaccessible (and in some manners even more so.) This movie lacks a clear narrative, and can be thought to be more like a Koan (a paradoxical riddle intrinsic to the Zen tradition that challenges our logical thinking and can induce spontaneous enlightenment or clarity) than a movie. But, if one is able to let go of their intuitions about how a movie ought to be and dedicate the intention espoused in the film, what you receive is perhaps one of the most important experiences you will have in your life.&lt;/p&gt;
+    
+    
+    
       Memories of Murder
       http://localhost:1313/reviews/movie_reviews/memories-of-murder/
       Mon, 24 Feb 2025 13:33:25 -0600
@@ -47,6 +56,16 @@ cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
       &lt;p&gt;Hey, it’s been a while. Who are you?&lt;/p&gt;
 &lt;p&gt;I haven’t written a review in some time. There’s a long list of movies that need to be explored. But maybe I’ve been suffering from Anxiety of Influence from reading too much Pauline Kael, or I’ve had too much to say about a movie and thereby not enough gall to post something I might deem as incomplete.&lt;/p&gt;
 &lt;p&gt;Until recently, I was maybe dreading my impulse to write a review for everything. After watching Cure, after I came back up plumbing down in the questions of self, after recognizing the horrifying screech and din of the most common ambient noises, it permanently changed my brain chemistry…. I knew I had to write a review immediately.&lt;/p&gt;
+    
+    
+    
+      Synecdoche, New York
+      http://localhost:1313/reviews/movie_reviews/synecdoche-new-york/
+      Mon, 24 Feb 2025 13:33:25 -0600
+      
+      http://localhost:1313/reviews/movie_reviews/synecdoche-new-york/
+      &lt;p&gt;“I know what to do with this play now. I have an idea. I think…”&lt;/p&gt;
+&lt;p&gt;Synecdoche, NY by Charlie Kauffman is one of my favorite movies all time and maybe one of the greatest movies ever made. Synecdoche, NY is significantly different in tone than movies like Being John Malkovich or Adaptation, yet still incorporates the zaniness and post-Modern flair that makes Kauffman’s work so unique. This is the opus of Kauffman, and one that is very personal to him. It reminds me of what Steinbeck said regarding the creation of his East of Eden:&lt;/p&gt;
     
     
     
@@ -193,7 +212,91 @@ cat &lt;&lt; 'EOF' > "themes/classy/layouts/_default/rss.xml"
       Mon, 24 Feb 2025 13:33:25 -0600
       
       http://localhost:1313/reviews/movie_reviews/essay4/
-      &lt;p&gt;One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. &lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-ad009f57&#34;&gt;
+      &lt;p&gt;One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. &lt;script type=&#34;text/javascript&#34; src= &#39;/js/pdf-js/build/pdf.js&#39;&gt;&lt;/script&gt;
+
+&lt;style&gt;
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  &lt;/style&gt;&lt;div class=&#34;embed-pdf-container&#34; id=&#34;embed-pdf-container-ad009f57&#34;&gt;
     &lt;div class=&#34;pdf-loadingWrapper&#34; id=&#34;pdf-loadingWrapper-ad009f57&#34;&gt;
         &lt;div class=&#34;pdf-loading&#34; id=&#34;pdf-loading-ad009f57&#34;&gt;&lt;/div&gt;
     &lt;/div&gt;

@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/reviews/movie_reviews/solaris/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/reviews/movie_reviews/why-has-bodhi-dharma-left-for-the-east/</loc>
+    <lastmod>2025-02-24T13:33:25-06:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/reviews/movie_reviews/memories-of-murder/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
@@ -12,6 +15,9 @@
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reviews/movie_reviews/the-truman-show/</loc>
+    <lastmod>2025-02-24T13:33:25-06:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/reviews/movie_reviews/synecdoche-new-york/</loc>
     <lastmod>2025-02-24T13:33:25-06:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/reviews/movie_reviews/the-room/</loc>
@@ -127,6 +133,8 @@
     <loc>http://localhost:1313/japanblog/blog1_aug_6_2026/</loc>
   </url><url>
     <loc>http://localhost:1313/month/</loc>
+  </url><url>
+    <loc>http://localhost:1313/japanblog/blog2_aug_8_2026/</loc>
   </url><url>
     <loc>http://localhost:1313/year/</loc>
   </url>
