@@ -1,5 +1,6 @@
 +++
 title = 'My Experience with the Japanese Waste Management System'
+date = "2026-08-08T1:50:54+05:30"
 +++
 
 

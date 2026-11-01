@@ -63,121 +63,369 @@
     <h1 class="page-title">Movie Reviews</h1>
 
     <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/solaris/">Solaris</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/essay4/">Everything, Everywhere, All at Once Movie Review</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>Solaris is not a Sci-Fi film that expands the world, but contracts it until it comes caving in on the very makeup of our existence: memory, emotion, and the nature experience itself.</p>
-<p>Having watched movies such as Ex Machina and Annihilation by Alex Garland, I have developed a new taste for certain breeds of Sci-Fi movies. I realized that I tend to prefer Sci-Fi that forgets space, and explores the mind, rather than cool or breath-taking intellectual property. Both films were thought-provoking and gorgeously rendered, yet neither of those movies was able to fully capture the essence of what I would consider a 5 star movie; there was some kind of slight innate incompleteness that I was unable to grasp.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/solaris/">Read more...</a></span>
+    <p><p>One of my favorite movies of the 21st century, Everything, Everywhere, All at Once is a cluttered yet simultaneously cohesive masterpiece. In this review, I argue that The Daniels undertook an ambitious venture by uniting the seemingly endless nature of reality into something intimate and emotional, an action packed that defies genre norms; it is a piece of media that simultaneously expands your consciousness, yet grounds your very being. <script type="text/javascript" src= '/js/pdf-js/build/pdf.js'></script>
+
+<style>
+  #embed-pdf-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 20vh;
+     
+  }
+  
+  .pdf-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  #the-canvas {
+    border: 1px solid black;
+    direction: ltr;
+    width: 100%;
+    height: auto;
+    display: none;
+  }
+  
+  
+  .pdf-loadingWrapper {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+  }
+  
+  .pdf-loading {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 3px solid #d2d0d0;;
+    border-radius: 50%;
+    border-top-color: #383838;
+    animation: spin 1s ease-in-out infinite;
+    -webkit-animation: spin 1s ease-in-out infinite;
+  }
+  
+  
+  
+  
+  
+  #overlayText {
+    word-wrap: break-word;
+    display: grid;
+    justify-content: end;
+  }
+  
+  #overlayText a {
+    position: relative;
+    top: 10px;
+    right: 4px;
+    color: #000;
+    margin: auto;
+    background-color: #eeeeee;
+    padding: 0.3em 1em;
+    border: solid 2px;
+    border-radius: 12px;
+    border-color: #00000030;
+    text-decoration: none;
+  }
+  
+  #overlayText svg {
+    height: clamp(1em, 2vw, 1.4em);
+    width:  clamp(1em, 2vw, 1.4em);
+  }
+  
+  
+  
+  @keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  @-webkit-keyframes spin {
+    to { -webkit-transform: rotate(360deg); }
+  }
+  </style><div class="embed-pdf-container" id="embed-pdf-container-ad009f57">
+    <div class="pdf-loadingWrapper" id="pdf-loadingWrapper-ad009f57">
+        <div class="pdf-loading" id="pdf-loading-ad009f57"></div>
+    </div>
+    <div id="overlayText">
+      <a href="/reviews/movie_reviews/EEEAAO.pdf" aria-label="Download" download>
+        <svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18">
+            <path d="M9 13c.3 0 .5-.1.7-.3L15.4 7 14 5.6l-4 4V1H8v8.6l-4-4L2.6 7l5.7 5.7c.2.2.4.3.7.3zm-7 2h14v2H2z" />
+        </svg>
+      </a>
+    </div>
+    <canvas class="pdf-canvas" id="pdf-canvas-ad009f57"></canvas>
+</div>
+
+<div class="pdf-paginator" id="pdf-paginator-ad009f57">
+    <button id="pdf-prev-ad009f57">Previous</button>
+    <button id="pdf-next-ad009f57">Next</button> &nbsp; &nbsp;
+    <span>
+      <span class="pdf-pagenum" id="pdf-pagenum-ad009f57"></span> / <span class="pdf-pagecount" id="pdf-pagecount-ad009f57"></span>
+    </span>
+    <a class="pdf-source" id="pdf-source-ad009f57" href="/reviews/movie_reviews/EEEAAO.pdf">[pdf]</a>
+</div>
+
+<noscript>
+View the PDF file <a class="pdf-source" id="pdf-source-noscript-ad009f57" href="/reviews/movie_reviews/EEEAAO.pdf">here</a>.
+</noscript>
+
+<script type="text/javascript">
+    (function(){
+    var url = '\/reviews\/movie_reviews\/EEEAAO.pdf';
+
+    var hidePaginator = "" === "true";
+    var hideLoader = "" === "true";
+    var selectedPageNum = parseInt("") || 1;
+
+    
+    var pdfjsLib = window['pdfjs-dist/build/pdf'];
+
+    
+    if (pdfjsLib.GlobalWorkerOptions.workerSrc == '')
+      pdfjsLib.GlobalWorkerOptions.workerSrc = "http:\/\/localhost:1313\/" + 'js/pdf-js/build/pdf.worker.js';
+
+    
+    var pdfDoc = null,
+        pageNum = selectedPageNum,
+        pageRendering = false,
+        pageNumPending = null,
+        scale = 3,
+        canvas = document.getElementById('pdf-canvas-ad009f57'),
+        ctx = canvas.getContext('2d'),
+        paginator = document.getElementById("pdf-paginator-ad009f57"),
+        loadingWrapper = document.getElementById('pdf-loadingWrapper-ad009f57');
+
+
+    
+    showPaginator();
+    showLoader();
+
+    
+
+    function renderPage(num) {
+      pageRendering = true;
+      
+      pdfDoc.getPage(num).then(function(page) {
+        var viewport = page.getViewport({scale: scale});
+        canvas.height = viewport.height;
+        canvas.width = viewport.width;
+
+        
+        var renderContext = {
+          canvasContext: ctx,
+          viewport: viewport
+        };
+        var renderTask = page.render(renderContext);
+
+        
+        renderTask.promise.then(function() {
+          pageRendering = false;
+          showContent();
+
+          if (pageNumPending !== null) {
+            
+            renderPage(pageNumPending);
+            pageNumPending = null;
+          }
+        });
+      });
+
+      
+      document.getElementById('pdf-pagenum-ad009f57').textContent = num;
+    }
+
+    
+
+    function showContent() {
+      loadingWrapper.style.display = 'none';
+      canvas.style.display = 'block';
+    }
+
+    
+
+    function showLoader() {
+      if(hideLoader) return
+      loadingWrapper.style.display = 'flex';
+      canvas.style.display = 'none';
+    }
+
+    
+
+    function showPaginator() {
+      if(hidePaginator) return
+      paginator.style.display = 'block';
+    }
+
+    
+
+    function queueRenderPage(num) {
+      if (pageRendering) {
+        pageNumPending = num;
+      } else {
+        renderPage(num);
+      }
+    }
+
+    
+
+    function onPrevPage() {
+      if (pageNum <= 1) {
+        return;
+      }
+      pageNum--;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-prev-ad009f57').addEventListener('click', onPrevPage);
+
+    
+
+    function onNextPage() {
+      if (pageNum >= pdfDoc.numPages) {
+        return;
+      }
+      pageNum++;
+      queueRenderPage(pageNum);
+    }
+    document.getElementById('pdf-next-ad009f57').addEventListener('click', onNextPage);
+
+    
+
+    pdfjsLib.getDocument(url).promise.then(function(pdfDoc_) {
+      pdfDoc = pdfDoc_;
+      var numPages = pdfDoc.numPages;
+      document.getElementById('pdf-pagecount-ad009f57').textContent = numPages;
+
+      
+      if(pageNum > numPages) {
+        pageNum = numPages
+      }
+
+      
+      renderPage(pageNum);
+    });
+    })();
+</script>
+</p><span> <a href="http://localhost:1313/reviews/movie_reviews/essay4/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/why-has-bodhi-dharma-left-for-the-east/">Why Has Bodhi-Dharma Left for the East</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/acu/">A Complete Unknown</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>Why Has Bodhi-Dharma Left for the East? is a film directed, written, and produced by Bang Yong-kyun. It is certainly a lesser known movie in 2025, having only around 1,500 ratings on Letterboxd. But, it is also known for being the one of the first South Korean movies to receive a theatrical release in the United States. This movie was created at a time before Korea had a substantial film canon, and in many facets is a movie antithetical to monetary success: it is uncompromising, slow, heavily spiritual, and reflective. This movie is in cohort with directors like Tarkovsky in its philosophical and spiritual spearheads, but in many ways this movie is just as inaccessible (and in some manners even more so.) This movie lacks a clear narrative, and can be thought to be more like a Koan (a paradoxical riddle intrinsic to the Zen tradition that challenges our logical thinking and can induce spontaneous enlightenment or clarity) than a movie. But, if one is able to let go of their intuitions about how a movie ought to be and dedicate the intention espoused in the film, what you receive is perhaps one of the most important experiences you will have in your life.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/why-has-bodhi-dharma-left-for-the-east/">Read more...</a></span>
+    <p><p>Timothee was absolutely incredible in this movie, but I really feel like they dumbed down Dylan’s character here.</p>
+<p>Perhaps this is an issue with time (or more generally with these modern Biopic movies about singers,) but this movie feels underdeveloped and somewhat flat.</p>
+<p>There are some important events established in the beginning (Civil Rights, Cuban Missile Crisis, so on..) but there is little to no exposition as to why he made the songs he did and the ideas that made Dylan of such literary importance. I’m not arguing he had some clear arguments on what to do, but there is a lack of Dylan actually changing with respect to these events. It sometimes felt like Dylan was sort of passively having things happen to him.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/acu/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/memories-of-murder/">Memories of Murder</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/taste-of-cherry/">A Taste of Cherry</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>Hey you. Yeah, YOU. You look a little guilty. Yeah, why are you so sweaty right now? You wont look me in the eye. You look nervous… there’s nothing to be nervous about here, especially if you didn’t do anything wrong. What have you been up to? Oh I see… That’s not what I heard. Why are you lying to me? There’s no reason for you to be lying unless you had something to hide. Yeah, I saw you walking around earlier. Everyone was grimacing as you were walking by like they knew something about you. I can tell when a man is guilty; I can see it in your eyes. Do you really think that bad men go unpunished?</p><span> <a href="http://localhost:1313/reviews/movie_reviews/memories-of-murder/">Read more...</a></span>
+    <p><p>This movie is uncomfortable in subject matter and also in execution. Suicide is a difficult topic to get right, as evident from media that depicts it such as 13 reasons why; that is, it is easy to glorify such things when the intent might be to de-stigmatize, but I think this movie strikes a very beautiful medium in portraying it.</p>
+<p>Badii beats around the bush, he is pointed sometimes and in the end he gets someone to assist him in the act of taking his life. Again, there are super uncomfortable moments, such as the soldier at the beginning who knows his aim and won&rsquo;t do so because it feels wrong. Then there is the student who won&rsquo;t do it out of principle. These scenes are sometimes very awkward. Badii always talks about them, but never about himself.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/taste-of-cherry/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/cure/">The Truman Show</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/barry-lyndon/">Barry Lyndon</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>Hey kids!</p>
-<p>What if I installed an information hazard in your brain? An information hazard is a thought or worldview which when communicated can permanently hijack your conscious life. Well, you’re reading my review so you can’t really avoid it at this point per Sunken Cost Fallacy. Did you know that it is an unfalsifiable belief that everything might simply be a creation of your mind, that all of your friends are simply figments of your imagination? Such a world view is called &ldquo;Solipsism,&rdquo; and though it is not directly espoused by people, has indirectly gained ground in recent years.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/cure/">Read more...</a></span>
+    <p><p>To start, it goes without saying that this is one of the most beautiful movies I have ever seen. My roommate told me that this movie was shot entirely with natural lighting and this created a few very interesting effects. A lot of the aristocratic, various viscounts and countesses alike, had what appeared to be a somewhat sickly pallor. Many scenes in this movie looked like literal paintings. I feel like I could simply take a high resolution screenshot of a few scenes and hang these up in a gallery.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/barry-lyndon/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/the-truman-show/">Cure</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/the-big-lebowski/">The Big Lebowski</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>Hey, it’s been a while. Who are you?</p>
-<p>I haven’t written a review in some time. There’s a long list of movies that need to be explored. But maybe I’ve been suffering from Anxiety of Influence from reading too much Pauline Kael, or I’ve had too much to say about a movie and thereby not enough gall to post something I might deem as incomplete.</p>
-<p>Until recently, I was maybe dreading my impulse to write a review for everything. After watching Cure, after I came back up plumbing down in the questions of self, after recognizing the horrifying screech and din of the most common ambient noises, it permanently changed my brain chemistry…. I knew I had to write a review immediately.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/the-truman-show/">Read more...</a></span>
+    <p><p>The Big Lebowski.</p>
+<p>This movie is interesting, because it has a really horrible Movie poster and at first glance seemed like another Hangover or Grown-ups type comedy movie. My assumptions were completely wrong and this movie has since grown to be one of my favorites.</p>
+<p>Overall, this movie is on one hand about Nihilism. What is the meaning of life? Why is it that I keep putting up with the horrible things happening in my life? Why am I stuck in a dead-end job? Is it really all for naught? Well, one thing you should know: while you were sitting here complaining about such things, the dude is out there abiding. The dude abides.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/the-big-lebowski/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/synecdoche-new-york/">Synecdoche, New York</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/adaptation/">Adaptation</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>“I know what to do with this play now. I have an idea. I think…”</p>
-<p>Synecdoche, NY by Charlie Kauffman is one of my favorite movies all time and maybe one of the greatest movies ever made. Synecdoche, NY is significantly different in tone than movies like Being John Malkovich or Adaptation, yet still incorporates the zaniness and post-Modern flair that makes Kauffman’s work so unique. This is the opus of Kauffman, and one that is very personal to him. It reminds me of what Steinbeck said regarding the creation of his East of Eden:</p><span> <a href="http://localhost:1313/reviews/movie_reviews/synecdoche-new-york/">Read more...</a></span>
+    <p><p>This movie is a massive dumpster fire in a pretty cool way. There are some really interesting themes and a ton of meta moments that deliver a very cerebral experience. First off, I had no idea that the Orchid Thief was a real book in the first place. Then to make an entire movie about Charlie Kaufman himself, who is on the set for Being John Malkovich, struggling with writer&rsquo;s block over this seemingly random book is insane. This is a true story too, with Charlie Kaufman actually having struggled to adapt in real life.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/adaptation/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/the-room/">The Room</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/rushmore/">Rushmore</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>Utterly baffling. The worst movie I have ever seen, which has quite the allure. My personal hell consists in being the football passed between Johnny and his supposed best friend Mark. Is Tommy even playing a character or is he just in the movie?</p>
-<p>0/5 or 5/5, imagine you take the equivalence relation ~ that maps 0 to 1 on the interval [0,1) and you get S^1. This movie is the unit circle.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/the-room/">Read more...</a></span>
+    <p><p>Though I rate this a 4.5/5, as it&rsquo;s maybe not as impactful as something I would rate a 5, I have a lot to say about this movie.</p>
+<p>To start, I am literally Max Fischer. No, it&rsquo;s not because I am into older women (though that has happened before and might qualify me in that regard.) No, it&rsquo;s not in my sheer genius at devising conniving and evil ways of getting back at my friend who &ldquo;stole&rdquo; said older woman. Yes, it&rsquo;s because I wish I could do the things that I want to do and not get bogged down by seemingly useless and monotonous stuff that I don&rsquo;t really care about.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/rushmore/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/the-last-showgirl/">The Last Showgirl</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/good-morning/">Good Morning</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>The Last Showgirl is an American film released in 2024 starring Pamela Anderson. Pamela plays Shelly Gardner, a long term Showgirl at La Razzle Dazzle. She possesses an innate struggle with her occupation and her role as a mother, and also the general stigmatization of showgirl business. Such struggle manifests in prejudice, self-hatred, and a desire for amending her relationship with her daughter and other dancers. This movie investigates some heavy topics, including mortality, beauty, and motherhood, all of which blend together to create a very touching meditation. However, there are a few crucial problems with this film.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/the-last-showgirl/">Read more...</a></span>
+    <p><p>I feel strange having written all these reviews that have 4.5 or 5 stars, but I feel as if I have been spoiled by my movie parents.</p>
+<p>In any case, Good Morning by Ozu is a seemingly pretty silly movie. From button-activated flatulence to just wanting a damn TV to watch Sumo wrestling - not a whole lot happens in this movie. I think where this movie truly shines is in visual prowess. I wish Ozu would come into my home and show me what I am doing wrong. This movie is beautiful in terms of color coordination and set design.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/good-morning/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/dr.-strangelove/">Dr. Strangelove</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/network/">Network</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>I watched this movie under the supervision of my movie sensei Knox.</p>
-<p>Dr. Strangelove is a military man’s wet dream, but it is certainly not a blonde haired bombshell. No, Dr. Strangelove makes the argument that the military men’s hyper masculinity and love for military superiority is so perverse that it may as well be a form of…. Strange love. Phallic imagery is on display throughout this movie, such as the airplace refueling scene, and the B52 dangling superimposed in the sky. It is very reminiscent of Thomas Pynchon, in which he equates the American rocket to the phallus. Even the president is talking like he is in bed with the Russian president.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/dr.-strangelove/">Read more...</a></span>
+    <p><p>I watched this movie on May 25th under the supervision of my movie sensei Knox.</p>
+<p>In this movie, everyone is mad as hell, and seemingly they are not going to take it anymore. We all feel on the verge of change, but rarely act—and when we do, we retreat into old habits. Even when we do make an effort, we change our minds because we want to go back to how things were previously. It is easy to feel as though we are simply viewers of our own lives, as though we are trapped in a 24 hour news cycle in our own lives where when we are happy we think about the next event or outcome that will increase this further.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/network/">Read more...</a></span>
     </p>
 </article>
 <article class="blog-post-summary">
-    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/annihlation/">Annihilation</a></h3>
+    <h3 class="blog-post-title"><a href="http://localhost:1313/reviews/movie_reviews/sinners/">Sinners</a></h3>
 
     <p class="blog-post-info">Posted: <time>2025-02-24</time>
     
 
 
 </p>
-    <p><p>I watched this movie under the supervision of my movie senseis Eben and Knox.</p>
-<p>Annihilation. This movie has a somewhat unlikable cast of characters, and it feels as though there are a lot of gaps in this movie’s motivation. Yes, I get it that these characters are incredibly troubled and thus are willing to essentially go on a suicide mission to obtain more information about the light house, but why only these 5 people? I know they are all crazy and traumatized, but still. Maybe I should care less about the lens cap being on the camera, but I feel like this movie leaves a lot of questions regarding the characters and their motives. Another gripe I have is that the dialogue is incredibly simplistic. Though, it could be argued that this simple dialogue is rather sparse intentionally, which could be lending to the general puzzle that is this film. The characters at times felt somewhat flat, which led me to feeling slightly disconnected from the film at times.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/annihlation/">Read more...</a></span>
+    <p><p>Sinners was a breath of fresh air in the midst of Hollywood carbon copies, mass churned marvel movies, and some general disillusionment with modern cinema from myself/others.</p>
+<p>To be honest, going into this movie I did not have the highest hopes. In the trailers, the use of allegory is not nearly as pronounced and might have a draw primarily through the novelty of Michael B. Jordan playing two characters. But, I came away being more than pleased with this movie. A lot of the allegories that really make this movie great were not very present in the trailers, and these slight subtleties took something which seemed like something banal and presented something much more ambitious and revitalizing.</p><span> <a href="http://localhost:1313/reviews/movie_reviews/sinners/">Read more...</a></span>
     </p>
 </article>
 
